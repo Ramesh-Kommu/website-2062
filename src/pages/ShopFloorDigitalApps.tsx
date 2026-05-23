@@ -719,11 +719,11 @@ const IndustrySection = () => {
             Pre-Built for Your Industry
           </h2>
         </Reveal>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {items.map((it, i) => (
             <Reveal key={it.name} delay={i * 0.06}>
               <div
-                className={`h-full lg:pl-6 ${i > 0 ? "lg:border-l lg:border-white/10" : ""}`}
+                className={`h-full lg:pl-8 ${i > 0 ? "lg:border-l lg:border-white/10" : ""}`}
               >
                 <div className="text-[15px] sm:text-[13px] font-medium mb-1.5" style={{ color: CYAN }}>{it.tag}</div>
                 <h3 className="text-white text-[19px] sm:text-[15px] font-medium mb-4 leading-snug" style={{ fontFamily: GROTESK }}>
@@ -733,17 +733,17 @@ const IndustrySection = () => {
                   {it.kpis.map(([v, l], idx) => (
                     <div
                       key={idx}
-                      className="flex flex-col items-center justify-center py-2 px-1"
+                      className="flex flex-col items-center justify-center py-1.5 px-0.5"
                       style={{ border: `0.5px solid ${CYAN}33`, borderRadius: 1 }}
                     >
-                      <div className="text-[16px] sm:text-[14px] font-semibold" style={{ color: CYAN, fontFamily: GROTESK }}>{v}</div>
-                      <div className="text-[12px] sm:text-[10px] uppercase tracking-[0.12em] mt-0.5" style={{ color: "#6B7280" }}>{l}</div>
+                      <div className="text-[14px] sm:text-[13px] font-semibold whitespace-nowrap" style={{ color: CYAN, fontFamily: GROTESK }}>{v}</div>
+                      <div className="text-[11px] sm:text-[9px] uppercase tracking-[0.1em] mt-0.5 whitespace-nowrap" style={{ color: "#6B7280" }}>{l}</div>
                     </div>
                   ))}
                 </div>
                 <ul className="space-y-2">
                   {it.bullets.map((b) => (
-                    <li key={b} className="flex items-start gap-2 text-[16px] sm:text-[14px]" style={{ color: "#CBD5D8" }}>
+                    <li key={b} className="flex items-start gap-2 text-[14px] sm:text-[13px]" style={{ color: "#CBD5D8" }}>
                       <span className="mt-1.5 inline-block w-1 h-1 rounded-full shrink-0" style={{ background: "#6B7280" }} />
                       <span>{b}</span>
                     </li>
