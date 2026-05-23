@@ -719,32 +719,33 @@ const IndustrySection = () => {
             Pre-Built for Your Industry
           </h2>
         </Reveal>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {items.map((it, i) => (
             <Reveal key={it.name} delay={i * 0.06}>
               <div
-                className={`h-full lg:pl-6 ${i > 0 ? "lg:border-l lg:border-white/10" : ""}`}
+                className="h-full flex flex-col p-6 rounded-lg"
+                style={{ background: "#0D1014", border: "1px solid #23262D" }}
               >
-                <div className="text-[15px] sm:text-[13px] font-medium mb-1.5" style={{ color: CYAN }}>{it.tag}</div>
-                <h3 className="text-white text-[19px] sm:text-[15px] font-medium mb-4 leading-snug" style={{ fontFamily: GROTESK }}>
+                <div className="text-[12px] font-medium tracking-[0.14em] uppercase mb-2" style={{ color: CYAN }}>{it.tag}</div>
+                <h3 className="text-white text-[20px] font-medium mb-5 leading-snug" style={{ fontFamily: GROTESK }}>
                   {it.name}
                 </h3>
-                <div className="grid grid-cols-3 gap-1.5 mb-5">
+                <div className="grid grid-cols-3 gap-2 mb-6">
                   {it.kpis.map(([v, l], idx) => (
                     <div
                       key={idx}
-                      className="flex flex-col items-center justify-center py-2 px-1"
-                      style={{ border: `0.5px solid ${CYAN}33`, borderRadius: 1 }}
+                      className="flex flex-col items-center justify-center text-center py-3 px-1 rounded-md min-h-[68px]"
+                      style={{ border: `1px solid ${CYAN}33`, background: "#0A0D10" }}
                     >
-                      <div className="text-[16px] sm:text-[14px] font-semibold" style={{ color: CYAN, fontFamily: GROTESK }}>{v}</div>
-                      <div className="text-[12px] sm:text-[10px] uppercase tracking-[0.12em] mt-0.5" style={{ color: "#6B7280" }}>{l}</div>
+                      <div className="text-[15px] font-semibold leading-none" style={{ color: CYAN, fontFamily: GROTESK }}>{v}</div>
+                      <div className="text-[9px] uppercase tracking-[0.1em] mt-1.5 leading-tight" style={{ color: "#8A93A0" }}>{l}</div>
                     </div>
                   ))}
                 </div>
-                <ul className="space-y-2">
+                <ul className="space-y-2.5 mt-auto">
                   {it.bullets.map((b) => (
-                    <li key={b} className="flex items-start gap-2 text-[16px] sm:text-[14px]" style={{ color: "#CBD5D8" }}>
-                      <span className="mt-1.5 inline-block w-1 h-1 rounded-full shrink-0" style={{ background: "#6B7280" }} />
+                    <li key={b} className="flex items-start gap-2 text-[14px] leading-snug" style={{ color: "#CBD5D8" }}>
+                      <span className="mt-[7px] inline-block w-1 h-1 rounded-full shrink-0" style={{ background: CYAN }} />
                       <span>{b}</span>
                     </li>
                   ))}
