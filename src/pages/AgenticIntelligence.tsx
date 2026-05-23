@@ -234,7 +234,7 @@ const AgenticIntelligence = () => {
           />
         </div>
 
-        <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-16 sm:pb-20">
+        <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-16 sm:pb-20">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -302,7 +302,7 @@ const AgenticIntelligence = () => {
 
       {/* SECTION 2 — SAP signals */}
       <section className="relative py-10 sm:py-14 bg-background overflow-hidden">
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 relative">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 relative">
           <ScrollReveal animation="fadeUp" duration={0.4}>
             <p className="text-center text-[11px] uppercase tracking-[0.2em] mb-5" style={{ color: "#C8FF00" }}>
               — What Carbynetech Does
@@ -407,7 +407,7 @@ const AgenticIntelligence = () => {
 
       {/* SECTION 3 — Three Domains */}
       <section className="relative py-12 sm:py-16" style={{ backgroundColor: "#080B14" }}>
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp" duration={0.4}>
             <p className="text-center text-[11px] uppercase tracking-[0.2em] mb-5" style={{ color: "#C8FF00" }}>
               — Capabilities and offerings
@@ -485,7 +485,7 @@ const AgenticIntelligence = () => {
 
       {/* SECTION 4 — Carbynetech Agentic AI */}
       <section className="relative py-12 sm:py-16" style={{ backgroundColor: "#0A1020" }}>
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp" duration={0.4}>
             <p className="text-center text-[11px] tracking-[0.2em] mb-5" style={{ color: "#C8FF00" }}>
               — Customer Use Cases
@@ -526,7 +526,7 @@ const AgenticIntelligence = () => {
 
       {/* SECTION 5 — Live in 4 Weeks */}
       <section className="relative py-12 sm:py-16" style={{ background: '#080B14' }}>
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp" duration={0.4}>
             <p className="text-center text-[11px] uppercase tracking-[0.2em] mb-5 flex items-center justify-center gap-2" style={{ color: '#B2F215' }}>
               <span className="w-6 h-px" style={{ background: '#B2F215' }} />
@@ -585,7 +585,7 @@ const AgenticIntelligence = () => {
 
       {/* SECTION 6 — Numbers */}
       <section className="relative py-12 sm:py-16" style={{ background: '#080B14' }}>
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp" duration={0.4}>
             <p className="text-center text-[11px] uppercase tracking-[0.2em] mb-5 flex items-center justify-center gap-2" style={{ color: '#B2F215' }}>
               <span className="w-6 h-px" style={{ background: '#B2F215' }} />
@@ -606,7 +606,7 @@ const AgenticIntelligence = () => {
 
       {/* SECTION 7 — Built to sit alongside */}
       <section className="relative py-12 sm:py-16" style={{ backgroundColor: "#0A1020" }}>
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp" duration={0.4}>
             <p className="text-primary text-[11px] tracking-[0.2em] mb-5 flex items-center gap-2" style={{ textTransform: "none" }}>
               <span className="w-6 h-px bg-primary" />
@@ -669,7 +669,7 @@ const AgenticIntelligence = () => {
           <span className="watermark-text-cta block text-center">SAP DATA</span>
           <span className="watermark-text-cta block text-center">ACTION?</span>
         </div>
-        <div className="relative mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 text-center">
+        <div className="relative mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
           <ScrollReveal animation="fadeUp" duration={0.4}>
             <h2 className="text-2xl sm:text-4xl md:text-5xl font-medium leading-tight mb-5 text-white max-w-[800px] mx-auto">
               Ready to See Your SAP Data
