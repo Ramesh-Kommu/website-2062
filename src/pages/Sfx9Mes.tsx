@@ -180,7 +180,7 @@ export default function Sfx9Mes() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0B0C0E]/55 via-[#0B0C0E]/40 to-[#0B0C0E]" />
         </div>
-        <div className="relative mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 pt-32 sm:pt-44 md:pt-56 pb-14 sm:pb-24 md:pb-36">
+        <div className="relative mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-32 sm:pt-44 md:pt-56 pb-14 sm:pb-24 md:pb-36">
           <motion.p
             className="uppercase tracking-[0.32em] text-white/65 text-[11px] sm:text-[12px] font-medium mb-4 sm:mb-7"
             initial={{ opacity: 0, y: 30 }}
@@ -248,7 +248,7 @@ export default function Sfx9Mes() {
 
       {/* SIX PILLARS — sticky monitor on right */}
       <section ref={pillarsRef} className="relative py-7 sm:py-12">
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 grid grid-cols-1 lg:grid-cols-[1fr_440px] gap-7 lg:gap-16">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 grid grid-cols-1 lg:grid-cols-[1fr_440px] gap-7 lg:gap-16">
           <div>
             <div className="lg:sticky lg:top-0 lg:z-20 lg:bg-[#060604] lg:pt-32 lg:pb-6">
               <ScrollReveal animation="fadeUp">
@@ -321,7 +321,7 @@ export default function Sfx9Mes() {
 
       {/* PRECISION-CONFIGURED */}
       <section className="py-7 sm:py-12 ">
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp">
             <p className="uppercase tracking-[0.32em] text-white/60 text-[11px] sm:text-[12px] font-medium mb-3">Industries</p>
             <h2 className="text-white" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500, fontSize: "clamp(32px, 4.5vw, 56px)", lineHeight: 1.1 }}>
@@ -371,7 +371,7 @@ export default function Sfx9Mes() {
 
       {/* CAPABILITIES THAT CROSS EVERY INDUSTRY — 4 stacked tabs */}
       <section className="py-7 sm:py-12 ">
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp">
             <p className="uppercase tracking-[0.32em] text-white/60 text-[11px] sm:text-[12px] font-medium mb-3">THE COMMON THREAD</p>
             <h2 className="text-white" style={{ fontFamily: SERIF, fontWeight: 500, fontSize: "clamp(32px, 4.5vw, 56px)", lineHeight: 1.1 }}>
@@ -387,7 +387,7 @@ export default function Sfx9Mes() {
 
       {/* EVERY METRIC THAT MATTERS */}
       <section className="py-7 sm:py-12 ">
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <KpiIntelligence />
         </div>
       </section>
@@ -491,7 +491,7 @@ export default function Sfx9Mes() {
 
       {/* CUSTOMER STORIES */}
       <section className="py-8 sm:py-14 relative overflow-hidden" style={{ background: PANEL }}>
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <div className="text-[12px] sm:text-[13px] font-semibold uppercase tracking-[0.22em] text-white/70 mb-3">CUSTOMER STORIES</div>
           <h2 className="text-[32px] sm:text-[40px] md:text-[46px] font-medium text-white leading-[1.05] mb-7" style={{ fontFamily: SERIF }}>
             In their own words
@@ -576,7 +576,7 @@ export default function Sfx9Mes() {
 
       {/* TRANSFORM CTA (LIGHT) */}
       <section className="pt-14 sm:pt-24 pb-0" style={{ background: "#EAEAEA" }}>
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 text-center">
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
           <h2
             className="text-[36px] sm:text-[48px] md:text-[58px] leading-[1.1] mb-5"
             style={{ fontFamily: SERIF, color: "#111", letterSpacing: "-0.01em", fontWeight: 500 }}
@@ -604,7 +604,7 @@ export default function Sfx9Mes() {
           </div>
         </div>
 
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 relative" style={{ marginBottom: "-70px" }}>
+        <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 relative" style={{ marginBottom: "-70px" }}>
           <div
             className="rounded-2xl px-6 sm:px-8 md:px-10 py-6 sm:py-7 flex flex-col md:flex-row items-start md:items-center justify-between gap-5 md:gap-6 text-left relative z-10"
             style={{ background: "#1A1A1A" }}

@@ -139,7 +139,7 @@ const Culture = () => {
 
       {/* MISSION — dark */}
       <section className="py-12 sm:py-16" style={{ background: "#0a0a0a", color: "#f5f5f5" }}>
-        <ScrollReveal animation="fadeUp" className="max-w-[900px] mx-auto px-5 sm:px-6 md:px-10">
+        <ScrollReveal animation="fadeUp" className="max-w-[900px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <Eyebrow color="#C8FF01">Our Mission</Eyebrow>
           <p
             className="text-[26px] sm:text-[36px] md:text-[44px] leading-[1.25]"
@@ -158,7 +158,7 @@ const Culture = () => {
 
       {/* VALUES */}
       <section className="py-12 sm:py-16" style={{ background: "#F5EFE3" }}>
-        <ScrollReveal animation="fadeUp" className="max-w-[1100px] mx-auto px-5 sm:px-6 md:px-10">
+        <ScrollReveal animation="fadeUp" className="max-w-[1100px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <Eyebrow>Our Values</Eyebrow>
           <h2
             className="text-[#1a1a1a] mb-8 sm:mb-12"
@@ -212,7 +212,7 @@ const Culture = () => {
 
       {/* HOW WE WORK — outcomes not activity */}
       <section className="py-10 sm:py-14" style={{ background: "#FFFDF6" }}>
-        <ScrollReveal animation="fadeUp" className="max-w-[1100px] mx-auto px-5 sm:px-6 md:px-10">
+        <ScrollReveal animation="fadeUp" className="max-w-[1100px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <p
             className="uppercase mb-4"
             style={{ fontFamily: eyebrow, fontSize: "12px", letterSpacing: "0.18em", fontWeight: 700, color: "#0a0a0a" }}
@@ -281,7 +281,7 @@ const Culture = () => {
           backgroundSize: "48px 48px",
         }}
       >
-        <ScrollReveal animation="fadeUp" className="max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10">
+        <ScrollReveal animation="fadeUp" className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <p
             className="uppercase mb-4"
             style={{ fontFamily: eyebrow, fontSize: "13px", letterSpacing: "0.22em", fontWeight: 600, color: "#ffffff" }}
@@ -390,7 +390,7 @@ const Culture = () => {
             opacity: 0.85,
           }}
         />
-        <ScrollReveal animation="fadeUp" className="relative max-w-[1280px] mx-auto px-5 sm:px-6 md:px-10">
+        <ScrollReveal animation="fadeUp" className="relative max-w-[1280px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <p
             className="uppercase mb-8 sm:mb-12"
             style={{ fontFamily: eyebrow, fontSize: "12px", letterSpacing: "0.22em", fontWeight: 600, color: "#0a0a0a" }}
@@ -528,7 +528,7 @@ const Culture = () => {
 
       {/* WORKPLACE — trust and support */}
       <section className="py-12 sm:py-16 bg-white">
-        <ScrollReveal animation="fadeUp" className="max-w-[1280px] mx-auto px-5 sm:px-6 md:px-10">
+        <ScrollReveal animation="fadeUp" className="max-w-[1280px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <p
             className="uppercase text-center mb-8"
             style={{ fontFamily: eyebrow, fontSize: "12px", letterSpacing: "0.22em", fontWeight: 600, color: "#0a0a0a" }}
@@ -630,7 +630,7 @@ const Culture = () => {
 
       {/* CLOSING — dark */}
       <section className="py-16 sm:py-20" style={{ background: "#0a0a0a", color: "#f5f5f5" }}>
-        <ScrollReveal animation="fadeUp" className="max-w-[900px] mx-auto px-5 sm:px-6 md:px-10 text-center">
+        <ScrollReveal animation="fadeUp" className="max-w-[900px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
           <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: "clamp(26px, 4vw, 48px)", lineHeight: 1.25 }}>
             We believe great work happens<br />
             when people are <em style={{ color: "#C8FF01" }}>trusted</em><br />

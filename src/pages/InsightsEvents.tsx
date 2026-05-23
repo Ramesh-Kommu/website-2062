@@ -76,7 +76,7 @@ const InsightsEvents = () => {
         />
         {/* fade to page bg at bottom */}
         <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-b from-transparent to-[#0A0E1A]" />
-        <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-32 sm:pt-40 pb-16">
+        <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-32 sm:pt-40 pb-16">
           <ScrollReveal animation="fadeUp" duration={0.6}>
             <p
               className="text-white text-[11px] sm:text-[12px] tracking-[0.22em] uppercase mb-5"
@@ -108,7 +108,7 @@ const InsightsEvents = () => {
         <ScrollReveal
           animation="fadeUp"
           duration={0.6}
-          className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 flex flex-col sm:flex-row sm:justify-end gap-3"
+          className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 flex flex-col sm:flex-row sm:justify-end gap-3"
         >
           <div className="relative w-full sm:w-[280px]">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-white/40" />
@@ -173,7 +173,7 @@ const InsightsEvents = () => {
 
       {/* Cards grid */}
       <section className="bg-[#0A0E1A] py-10 sm:py-14">
-        <div className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filtered.map((c, i) => (
               <ScrollReveal

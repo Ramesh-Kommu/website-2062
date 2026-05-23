@@ -60,7 +60,7 @@ const Careers = () => {
               "linear-gradient(90deg, rgba(8,11,20,0.55) 0%, rgba(8,11,20,0.35) 50%, rgba(8,11,20,0.2) 100%)",
           }}
         />
-        <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-32 sm:pt-40 pb-20">
+        <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-32 sm:pt-40 pb-20">
           <ScrollReveal animation="clipReveal" duration={1}>
             <h1
               className="text-white text-[40px] sm:text-[56px] md:text-[68px] font-normal leading-[1.05] mb-6 max-w-[640px]"
@@ -204,7 +204,7 @@ const Careers = () => {
       ) : (
         /* ====== LISTING VIEW ====== */
         <section className="bg-[#FBF7F0] -mt-10 sm:-mt-12 relative z-10 rounded-t-[28px] sm:rounded-t-[36px]">
-          <div className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-10 sm:pt-14 pb-16 sm:pb-20">
+          <div className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-10 sm:pt-14 pb-16 sm:pb-20">
             <ScrollReveal animation="fadeUp" duration={0.7}>
               <div className="relative mb-4">
                 <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
@@ -308,7 +308,7 @@ const Careers = () => {
               "linear-gradient(90deg, rgba(33,103,178,0.85) 0%, rgba(33,103,178,0.65) 60%, rgba(8,11,20,0.55) 100%)",
           }}
         />
-        <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 py-14 sm:py-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 py-14 sm:py-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <ScrollReveal animation="fadeLeft" duration={0.9}>
             <h2
               className="text-white text-[28px] sm:text-[40px] md:text-[44px] font-normal leading-[1.15]"

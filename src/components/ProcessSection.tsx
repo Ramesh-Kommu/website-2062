@@ -9,7 +9,7 @@ const steps = [
 const ProcessSection = () => {
   return (
     <section id="process" className="py-12 sm:py-16" style={{ background: '#202E3C' }}>
-      <div className="max-w-[1200px] xl:max-w-[1320px] 2xl:max-w-[1500px] mx-auto px-5 sm:px-6 md:px-10">
+      <div className="max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="mb-12 sm:mb-20">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-8 h-px" style={{ background: '#C8FF01' }} />

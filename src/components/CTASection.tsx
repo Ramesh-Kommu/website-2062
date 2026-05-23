@@ -7,7 +7,7 @@ const CTASection = () => {
         </span>
       </div>
 
-      <div className="relative z-10 max-w-[1200px] xl:max-w-[1320px] 2xl:max-w-[1500px] mx-auto px-5 sm:px-6 md:px-10 text-center">
+      <div className="relative z-10 max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <h2 className="text-[28px] sm:text-[36px] md:text-[48px] font-normal leading-[1.1] mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif", color: '#080B14' }}>
           Stop Guessing.
           <br />

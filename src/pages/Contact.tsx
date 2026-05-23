@@ -31,7 +31,7 @@ const Contact = () => {
                 "linear-gradient(90deg, rgba(8,11,20,0.55) 0%, rgba(8,11,20,0.35) 50%, rgba(8,11,20,0.2) 100%)",
             }}
           />
-          <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-0 sm:pt-40 pb-0 sm:pb-24">
+          <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-0 sm:pt-40 pb-0 sm:pb-24">
             <ScrollReveal animation="clipReveal" duration={1}>
               <h1
                 className="text-white text-[40px] sm:text-[56px] md:text-[64px] font-normal leading-[1.05] max-w-[680px]"
@@ -44,7 +44,7 @@ const Contact = () => {
         </div>
 
         {/* Two-column row: left details, right form (form overlaps hero) */}
-        <div className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-end">
             {/* Left column */}
             <ScrollReveal animation="fadeLeft" duration={0.9} className="pt-10 lg:pt-0 order-2 lg:order-1">
@@ -176,7 +176,7 @@ const Contact = () => {
 
       {/* Map */}
       <section className="bg-white pt-16 sm:pt-20 pb-16 sm:pb-20">
-        <div className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="scaleUp" duration={0.9}>
             <div className="rounded-lg overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.06)]">
               <iframe
@@ -197,7 +197,7 @@ const Contact = () => {
 
       {/* Bottom gradient text */}
       <section className="bg-white border-t border-gray-200">
-        <div className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 py-16 sm:py-24">
+        <div className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 py-16 sm:py-24">
           <ScrollReveal animation="fadeUp" duration={0.9}>
             <h2
               className="text-[36px] sm:text-[52px] md:text-[64px] leading-[1.1] font-semibold"

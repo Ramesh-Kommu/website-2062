@@ -23,7 +23,7 @@ const TEXT_DIM = "#636363";
 const HeroSection = () => (
   <section className="relative min-h-[620px] sm:min-h-[700px] flex items-center overflow-hidden" style={{ background: PANEL }}>
     <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-    <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-32 sm:pt-36 pb-20">
+    <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-32 sm:pt-36 pb-20">
       <motion.div
         initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
         className="mb-8 flex items-center gap-2"
@@ -82,7 +82,7 @@ const WhyItMattersSection = () => {
 
   return (
     <section className="py-14 sm:py-16" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-[12px] sm:text-[10px] font-semibold sm:font-medium uppercase tracking-[0.22em] mb-4" style={{ color: "rgba(255,255,255,0.55)" }}>HOW IT WORKS</div>
         <h2 className="text-[32px] sm:text-[36px] md:text-[42px] font-normal sm:font-light text-white leading-[1.05] mb-5" style={{ fontFamily: SERIF }}>
           Why It Matters
@@ -196,7 +196,7 @@ const SchedulingEngineSection = () => {
 
   return (
     <section className="py-14 sm:py-16" style={{ background: "#FFFFFF" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="mb-8 text-left">
           <h2 className="text-[32px] sm:text-[36px] md:text-[42px] font-normal sm:font-light leading-[1.05] mb-4" style={{ fontFamily: SERIF, color: "#1a1a1a" }}>
             The Scheduling Engine
@@ -291,7 +291,7 @@ const ComplexitySection = () => {
   ];
   return (
     <section className="py-14 sm:py-16" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <h2 className="text-[32px] sm:text-[36px] md:text-[42px] font-normal sm:font-light text-white leading-[1.05] mb-5 max-w-3xl" style={{ fontFamily: SERIF }}>
           Every Shopfloor Complexity.<br />Modelled and Solved.
         </h2>
@@ -364,7 +364,7 @@ const SolversSection = () => {
 
   return (
     <section className="py-14 sm:py-16" style={{ background: "#F4F2EC" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-left mb-8">
           <h2 className="text-[32px] sm:text-[36px] md:text-[42px] font-normal sm:font-light leading-[1.05] mb-4" style={{ fontFamily: SERIF, color: "#1a1a1a" }}>
             Powered by World-Class Optimization Solvers
@@ -434,7 +434,7 @@ const IntegrationsSection = () => {
   ];
   return (
     <section className="py-14 sm:py-16" style={{ background: "#060604", fontFamily: "Inter, sans-serif" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <h2 className="text-[32px] sm:text-[36px] md:text-[42px] font-normal sm:font-light text-white leading-[1.05] mb-4" style={{ fontFamily: "Cormorant, serif" }}>
           Works With What You Already Have
         </h2>
@@ -509,7 +509,7 @@ const TestimonialsSection = () => {
   ];
   return (
     <section className="py-14 sm:py-16 relative overflow-hidden" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-[13px] sm:text-[14px] font-medium uppercase tracking-[0.22em] text-white/55 mb-3">CUSTOMER STORIES</div>
         <h2 className="text-[32px] sm:text-[36px] md:text-[42px] font-normal sm:font-light text-white leading-[1.05] mb-9" style={{ fontFamily: SERIF }}>
           In their own words
@@ -606,7 +606,7 @@ const TestimonialsSection = () => {
 /* ---------- Transform CTA (LIGHT) ---------- */
 const TransformCTASection = () => (
   <section className="pt-24 sm:pt-28 pb-0" style={{ background: "#EAEAEA" }}>
-    <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 text-center">
+    <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
       <h2
         className="text-[34px] sm:text-[44px] md:text-[56px] leading-[1.1] mb-6"
         style={{ fontFamily: SERIF, color: "#111", letterSpacing: "-0.01em", fontWeight: 300 }}
@@ -636,7 +636,7 @@ const TransformCTASection = () => (
     </div>
 
     {/* dark bottom bar — straddles CTA bg and footer */}
-    <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 relative" style={{ marginBottom: "-70px" }}>
+    <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 relative" style={{ marginBottom: "-70px" }}>
       <div
         className="rounded-2xl px-7 sm:px-10 py-7 sm:py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 text-left relative z-10"
         style={{ background: "#1A1A1A" }}

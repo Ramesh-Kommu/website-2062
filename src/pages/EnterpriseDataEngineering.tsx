@@ -64,7 +64,7 @@ const HeroSection = () => {
   return (
     <motion.section className="relative min-h-[600px] sm:min-h-[680px] flex items-center overflow-hidden" initial={{ opacity: 0, y: 60, scale: 0.96, filter: "blur(10px)" }} whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
       <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-16">
+      <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-6 sm:mb-8"
@@ -117,7 +117,7 @@ const PlatformSection = () => {
   const chips = ["Multi-Source Ingestion", "ADF Orchestration", "Delta Lakehouse", "Real-Time Analytics", "AI/ML Serving"];
   return (
     <motion.section className="py-8 sm:py-12" style={{ background: "#070A07" }} initial={{ opacity: 0, y: 60, scale: 0.96, filter: "blur(10px)" }} whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
           <Eyebrow text="Data Architecture" />
           <h2 className="text-[28px] sm:text-[36px] md:text-[44px] font-medium text-white mb-5 leading-[1.1]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
@@ -148,7 +148,7 @@ const PlatformSection = () => {
 const IntegrationSection = () => {
   return (
     <motion.section className="py-8 sm:py-12" style={{ background: "#070A07" }} initial={{ opacity: 0, y: 60, scale: 0.96, filter: "blur(10px)" }} whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-center mb-10">
           <div className="flex items-center justify-center gap-3 mb-3">
             <div className="w-8 h-px" style={{ background: LIME }} />
@@ -216,7 +216,7 @@ const MetricsSection = () => {
   ];
   return (
     <motion.section className="py-8 sm:py-12" style={{ background: DARK_BLUE }} initial={{ opacity: 0, y: 60, scale: 0.96, filter: "blur(10px)" }} whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
           <Eyebrow text="Performance" />
           <h2 className="text-[28px] sm:text-[36px] md:text-[44px] font-medium text-white mb-8 leading-[1.15]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
@@ -281,7 +281,7 @@ const LakehouseSection = () => {
   const chips = ["Spark Transforms", "Stream Processing", "AI-Assisted Eng.", "Lake Build Tooling"];
   return (
     <motion.section className="py-8 sm:py-12" style={{ background: "#070A07" }} initial={{ opacity: 0, y: 60, scale: 0.96, filter: "blur(10px)" }} whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="relative p-6 sm:p-8" style={{ background: "#070A07", borderRadius: 14, border: "1px solid rgba(200,255,1,0.12)", boxShadow: "0 10px 40px rgba(200,255,1,0.06), 0 4px 20px rgba(0,0,0,0.4)" }}>
           <img src={lakehouseTiers} alt="Bronze Silver Gold Platinum lakehouse tiers" className="w-full h-auto object-contain block" />
           <div className="grid grid-cols-4 gap-2 mt-3 mb-6">
@@ -335,7 +335,7 @@ const ProcessSection = () => {
   const chips = ["SAP Native", "Azure ADF", "Databricks", "AI / ML", "Power BI", "Security"];
   return (
     <motion.section className="py-8 sm:py-12" style={{ background: "#000" }} initial={{ opacity: 0, y: 60, scale: 0.96, filter: "blur(10px)" }} whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
           <Eyebrow text="What We Work" />
           <h2 className="text-[28px] sm:text-[36px] md:text-[44px] font-medium text-white mb-6 leading-[1.1]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
@@ -414,7 +414,7 @@ const ServicesSection = () => {
   ];
   return (
     <motion.section className="py-8 sm:py-12" style={{ background: "#000" }} initial={{ opacity: 0, y: 60, scale: 0.96, filter: "blur(10px)" }} whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="w-8 h-px" style={{ background: LIME }} />
@@ -459,7 +459,7 @@ const ProofSection = () => {
   ];
   return (
     <motion.section className="py-8 sm:py-12" style={{ background: "#000" }} initial={{ opacity: 0, y: 60, scale: 0.96, filter: "blur(10px)" }} whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 text-center">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <div className="flex items-center justify-center gap-3 mb-6">
           <div className="w-8 h-px" style={{ background: LIME }} />
           <span className="text-[12px] font-medium" style={{ color: LIME }}>Proof Points</span>
@@ -500,7 +500,7 @@ const TechStackSection = () => {
   ];
   return (
     <motion.section className="py-8 sm:py-12" style={{ background: "#000" }} initial={{ opacity: 0, y: 60, scale: 0.96, filter: "blur(10px)" }} whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }} viewport={{ once: true, amount: 0.15 }} transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-center mb-8">
           <Eyebrow text="Technology" />
           <h2 className="text-[28px] sm:text-[36px] md:text-[44px] font-medium text-white mb-3 leading-[1.1] text-center" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>

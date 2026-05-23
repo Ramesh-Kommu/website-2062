@@ -185,7 +185,7 @@ const PredictiveAnalytics = () => {
           />
         </div>
 
-        <div className="relative z-10 mx-auto flex w-full max-w-[1200px] flex-1 flex-col justify-center px-5 sm:px-6 md:px-10 pt-24 sm:pt-32 pb-10 sm:pb-16">
+        <div className="relative z-10 mx-auto flex w-full max-w-[1200px] flex-1 flex-col justify-center px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-24 sm:pt-32 pb-10 sm:pb-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -273,7 +273,7 @@ const PredictiveAnalytics = () => {
 
       {/* SECTION 3 — Signal to Decision in 5 steps */}
       <section
-        className="relative py-8 sm:py-10 px-5 sm:px-6 md:px-10"
+        className="relative py-8 sm:py-10 px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20"
         style={{ backgroundColor: "#0A1020" }}
       >
         <div className="mx-auto max-w-[1200px]">
@@ -342,7 +342,7 @@ const PredictiveAnalytics = () => {
 
       {/* SECTION 4 — Why Carbynetech (compact feature rows) */}
       <section
-        className="relative py-8 sm:py-10 px-5 sm:px-6 md:px-10 overflow-hidden"
+        className="relative py-8 sm:py-10 px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 overflow-hidden"
         style={{ backgroundColor: "#0B1120" }}
       >
         <div
@@ -480,7 +480,7 @@ const PredictiveAnalytics = () => {
 
       {/* SECTION 5 — Numbers that move your board deck */}
       <section
-        className="relative py-10 sm:py-12 pb-14 sm:pb-16 px-5 sm:px-6 md:px-10 overflow-hidden"
+        className="relative py-10 sm:py-12 pb-14 sm:pb-16 px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 overflow-hidden"
         style={{ backgroundColor: "#173B2A" }}
       >
         {/* tight, faint horizontal + vertical grid */}
@@ -591,7 +591,7 @@ const ServiceAcceleratorsSection = () => {
       className="relative py-8 sm:py-10"
       style={{ backgroundColor: "#080B14" }}
     >
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <ScrollReveal animation="fadeUp" duration={0.4}>
           <p
             className="text-[11px] uppercase tracking-[0.2em] mb-4 flex items-center gap-2"
@@ -626,7 +626,7 @@ const ServiceAcceleratorsSection = () => {
         </ScrollReveal>
       </div>
 
-      <div className="max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10">
+      <div className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div
           ref={scrollerRef}
           className="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-2"

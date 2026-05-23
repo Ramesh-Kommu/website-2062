@@ -24,7 +24,7 @@ const EwmResultsSection = () => {
 
   return (
     <section className="py-12 sm:py-16" style={{ backgroundColor: "#080B14" }}>
-      <div className="mx-auto max-w-[1200px] xl:max-w-[1320px] 2xl:max-w-[1500px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         {/* Header row */}
         <div className="flex items-start justify-between mb-10 sm:mb-14">
           <div>

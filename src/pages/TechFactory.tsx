@@ -32,7 +32,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[600px] sm:min-h-[640px] flex items-center overflow-hidden bg-black">
       <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="relative z-10 mx-auto w-full max-w-[1280px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-16">
+      <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-6"
@@ -124,7 +124,7 @@ const disciplines: Discipline[] = [
 
 const DisciplinesSection = () => (
   <section className="py-8 sm:py-10 bg-black">
-    <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+    <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
       <ScrollReveal animation="fadeUp">
         <div className="text-center mb-7">
           <div className="inline-flex items-center gap-2 mb-3">
@@ -217,7 +217,7 @@ const flowSteps = [
 
 const EngagementSection = () => (
   <section className="py-10 sm:py-14 md:py-16" style={{ background: ENGAGE_BG }}>
-    <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+    <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
       <ScrollReveal animation="fadeUp">
         <Eyebrow text="Engagement Intelligence" />
         <h2
@@ -314,7 +314,7 @@ const scenarios = [
 
 const WhySection = () => (
   <section className="py-8 sm:py-10" style={{ background: "#060604" }}>
-    <div className="mx-auto max-w-[1180px] px-5 sm:px-6 md:px-10">
+    <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
       <ScrollReveal animation="fadeUp">
         <div
           className="rounded-xl p-5 sm:p-8 md:p-10"
@@ -402,7 +402,7 @@ const testimonials = [
 
 const ClientProofSection = () => (
   <section className="py-8 sm:py-10 bg-black">
-    <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+    <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
       <ScrollReveal animation="fadeUp">
         <div className="text-center mb-7">
           <div className="inline-flex items-center gap-2 mb-3">

@@ -7,7 +7,7 @@ const stats = [
 const ResultsSection = () => {
   return (
     <section id="results" className="py-12 sm:py-16" style={{ background: '#080B14' }}>
-      <div className="max-w-[1200px] xl:max-w-[1320px] 2xl:max-w-[1500px] mx-auto px-5 sm:px-6 md:px-10 text-center">
+      <div className="max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <div className="flex items-center justify-center gap-3 mb-6">
           <div className="w-8 h-px" style={{ background: '#C8FF01' }} />
           <span className="text-xs font-medium uppercase tracking-[0.15em]" style={{ color: '#C8FF01' }}>Proven Outcomes</span>

@@ -33,7 +33,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[600px] sm:min-h-[680px] flex items-center overflow-hidden">
       <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-16">
+      <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-6 sm:mb-8"
@@ -103,7 +103,7 @@ const PillarsSection = () => {
   const SUB_COLOR = "#7F8F43";
   return (
     <section className="py-12 sm:py-16" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <ScrollReveal animation="fadeUp">
           <Eyebrow text="The Stack" />
           <h2 className="text-[28px] sm:text-[36px] md:text-[40px] font-medium text-white mb-3 leading-[1.15]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
@@ -145,7 +145,7 @@ const PillarsSection = () => {
 const ConnectsSection = () => {
   return (
     <section className="py-12 sm:py-16" style={{ background: "#202E3C" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <ScrollReveal animation="fadeUp">
           <Eyebrow text="Architecture" />
           <h2 className="text-[28px] sm:text-[36px] md:text-[40px] font-medium text-white mb-3 leading-[1.15]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
@@ -178,7 +178,7 @@ const PlainLanguageSection = () => {
   ];
   return (
     <section className="py-12 sm:py-16" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-stretch">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-stretch">
         <div className="flex flex-col h-full">
           <ScrollReveal animation="fadeUp">
             <Eyebrow text="Claude AI Layer" />
@@ -279,7 +279,7 @@ const DeliverSection = () => {
   ];
   return (
     <section className="py-12 sm:py-16" style={{ background: "#000" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <ScrollReveal animation="fadeUp">
           <Eyebrow text="Capabilities" />
           <h2 className="text-[28px] sm:text-[36px] md:text-[40px] font-medium text-white mb-3 leading-[1.15]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
@@ -376,7 +376,7 @@ const BoardroomSection = () => {
 
   return (
     <section className="py-10 sm:py-14" style={{ background: "#000" }}>
-      <div className="mx-auto max-w-[1240px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1240px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <ScrollReveal animation="fadeUp">
           <div className="text-center mb-8 sm:mb-10">
             <div className="flex justify-center">
@@ -576,7 +576,7 @@ const ProcessSection = () => {
         backgroundSize: "24px 24px",
       }}
     >
-      <div className="relative mx-auto max-w-[1100px] px-5 sm:px-6 md:px-10 text-center">
+      <div className="relative mx-auto max-w-[1100px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <ScrollReveal animation="fadeUp">
           <div className="flex items-center justify-center mb-2">
             <Eyebrow text="Process" />
@@ -656,7 +656,7 @@ const ImpactSection = () => {
   ];
   return (
     <section className="py-10 sm:py-14" style={{ background: "#000" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1280px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <ScrollReveal animation="fadeUp">
           <Eyebrow text="Results" />
           <h2 className="text-[28px] sm:text-[36px] md:text-[40px] font-medium text-white mb-3 leading-[1.15]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>

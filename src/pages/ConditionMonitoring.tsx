@@ -51,7 +51,7 @@ const Eyebrow = ({ text, center = false }: { text: string; center?: boolean }) =
 const HeroSection = () => (
   <section className="relative min-h-[680px] sm:min-h-[760px] flex items-center overflow-hidden" style={{ background: PANEL }}>
     <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-    <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-14 sm:pb-20">
+    <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-14 sm:pb-20">
       <Reveal>
         <div className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-6"
           style={{ background: "#3425304D", border: "1px solid #C8FF0099" }}>
@@ -87,7 +87,7 @@ const SpecialistsSection = () => {
   ];
   return (
     <section className="py-10 sm:py-14" style={{ background: "#060604" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center">
           <Reveal>
             <Eyebrow text="Who We Are" />
@@ -146,7 +146,7 @@ const SignalFlowSection = () => {
   ];
   return (
     <section className="py-10 sm:py-14" style={{ background: "#0C0F13" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="Signal Architecture" />
           <h2 className="text-[42px] sm:text-[44px] md:text-[52px] font-medium leading-[1.05] mb-10 sm:mb-12 text-white" style={{ fontFamily: GROTESK }}>
@@ -236,7 +236,7 @@ const ManifestoSection = () => (
         "linear-gradient(180deg, rgba(125, 245, 85, 0.333333) 0%, rgba(73, 143, 50, 0.333333) 100%)",
     }}
   >
-    <div className="mx-auto max-w-[1100px] px-5 sm:px-6 md:px-10 text-center">
+    <div className="mx-auto max-w-[1100px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
       <Reveal>
         <Eyebrow text="Building the Future of" center />
         <h2 className="text-[42px] sm:text-[48px] md:text-[64px] font-medium leading-[1.05] text-white" style={{ fontFamily: GROTESK }}>
@@ -266,7 +266,7 @@ const ApplicationsSection = () => {
   ];
   return (
     <section className="py-10 sm:py-14" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="Industry Applications" />
           <h2 className="text-[42px] sm:text-[44px] md:text-[52px] font-medium leading-[1.05] mb-8 text-white" style={{ fontFamily: GROTESK }}>
@@ -357,7 +357,7 @@ const FactoryFloorSection = () => {
 
   return (
     <section className="py-10 sm:py-14" style={{ background: "#000" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <h2 className="text-[42px] sm:text-[44px] md:text-[52px] font-medium leading-[1.05] mb-8 text-white" style={{ fontFamily: GROTESK }}>
             Factory <span style={{ color: LIME }}>Floor</span>

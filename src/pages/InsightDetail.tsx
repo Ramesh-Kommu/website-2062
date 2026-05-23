@@ -65,7 +65,7 @@ const InsightDetail = ({ slug = "cfo-intelligence-suite" }: Props) => {
           style={{ background: "linear-gradient(180deg, rgba(10,10,6,0) 60%, rgba(10,10,6,0.95) 100%)" }}
         />
 
-        <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-32 sm:pt-40 pb-12">
+        <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-32 sm:pt-40 pb-12">
           <ScrollReveal animation="fadeUp" duration={0.6}>
             <p className="text-white/85 text-[12px] sm:text-[12.5px] font-semibold tracking-[0.24em] sm:tracking-[0.26em] uppercase mb-6">
               {data.eyebrow}
@@ -102,7 +102,7 @@ const InsightDetail = ({ slug = "cfo-intelligence-suite" }: Props) => {
 
       {/* Pain Points / After */}
       <section className="py-16 sm:py-20">
-        <div className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
             <ScrollReveal animation="fadeLeft" duration={0.9} className="md:pr-10 md:border-r border-white/10">
               <p className="text-white/75 text-[12px] sm:text-[13px] font-semibold uppercase tracking-wider mb-3">
@@ -142,7 +142,7 @@ const InsightDetail = ({ slug = "cfo-intelligence-suite" }: Props) => {
 
       {/* Data Architecture - light section */}
       <section className="py-16 sm:py-20" style={{ background: "#F4F2EA" }}>
-        <div className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp" duration={0.6}>
             <p className="text-[#3B6CFF] text-[12px] sm:text-[13px] font-semibold uppercase tracking-wider mb-3">
               {data.archEyebrow}
@@ -180,7 +180,7 @@ const InsightDetail = ({ slug = "cfo-intelligence-suite" }: Props) => {
 
       {/* What We Built */}
       <section className="py-16 sm:py-20">
-        <div className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp" duration={0.6}>
             <p className="text-white/75 text-[12px] sm:text-[13px] font-semibold uppercase tracking-wider mb-3">
               {data.whatBuiltEyebrow}
@@ -221,7 +221,7 @@ const InsightDetail = ({ slug = "cfo-intelligence-suite" }: Props) => {
 
       {/* The Impact */}
       <section className="pb-16 sm:pb-20">
-        <div className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp" duration={0.7}>
             <h2 className="text-white text-[26px] sm:text-[38px] font-semibold mb-8">{data.impactHeading}</h2>
           </ScrollReveal>
@@ -249,7 +249,7 @@ const InsightDetail = ({ slug = "cfo-intelligence-suite" }: Props) => {
 
       {/* Outcome */}
       <section className="py-16 sm:py-20 border-t border-white/10">
-        <div className="mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10">
+        <div className="mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
           <ScrollReveal animation="fadeUp" duration={0.7}>
             <h2 className="text-white text-[28px] sm:text-[40px] font-semibold mb-8">{data.outcomeHeading}</h2>
           </ScrollReveal>
