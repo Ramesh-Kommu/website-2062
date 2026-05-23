@@ -65,7 +65,7 @@ const HeroSection = () => {
         className="absolute inset-x-0 bottom-0 h-40"
         style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 100%)" }}
       />
-      <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-16 sm:pb-24">
+      <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-16 sm:pb-24">
         <Reveal>
           <div
             className="inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 mb-8"
@@ -157,7 +157,7 @@ const PillarsSection = () => {
   ];
   return (
     <section className="py-12 sm:py-16" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="AI Quality Platform" center />
           <h2 className="text-center text-[26px] sm:text-[32px] md:text-[38px] font-medium leading-tight mb-10 text-white" style={{ fontFamily: GROTESK }}>
@@ -222,7 +222,7 @@ const KpiStripSection = () => {
   ];
   return (
     <section
-      className="relative py-12 sm:py-16 px-5 sm:px-6 md:px-10 overflow-hidden"
+      className="relative py-12 sm:py-16 px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 overflow-hidden"
       style={{ backgroundColor: "#173B2A" }}
     >
       {/* faint grid */}
@@ -318,7 +318,7 @@ const ValueChainSection = () => {
   ];
   return (
     <section className="py-12 sm:py-16" style={{ background: "#13171D" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           <Reveal>
             <div className="flex items-center gap-3 mb-4">
@@ -437,7 +437,7 @@ const AgentsSection = () => {
   ];
   return (
     <section className="py-12 sm:py-16" style={{ background: "#000000" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-10 lg:gap-12 items-start">
           <Reveal>
             <div className="flex items-center gap-3 mb-4">
@@ -527,7 +527,7 @@ const ApproachSection = () => {
   ];
   return (
     <section className="py-12 sm:py-16" style={{ background: "#000000" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="Our Approach" />
           <h2 className="text-[26px] sm:text-[32px] md:text-[38px] font-medium leading-tight mb-10 text-white" style={{ fontFamily: GROTESK }}>
@@ -586,7 +586,7 @@ const ValuesSection = () => {
   ];
   return (
     <section className="py-12 sm:py-16" style={{ background: "#202E3C" }}>
-      <div className="max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10">
+      <div className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="mb-10 sm:mb-14">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-6 h-px" style={{ background: LIME }} />

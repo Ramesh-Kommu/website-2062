@@ -33,7 +33,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-16">
+      <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-6 sm:mb-8"
@@ -136,7 +136,7 @@ const EvolutionSection = () => {
   const [active, setActive] = useState("intelligent");
   return (
     <section className="py-8 sm:py-10" style={{ background: "#060604" }}>
-      <div className="max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10">
+      <div className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-center mb-7">
           <Eyebrow text="The AMS Evolution" />
           <h2 className="text-[36px] sm:text-[40px] md:text-[48px] font-medium leading-tight text-white" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
@@ -246,7 +246,7 @@ const forcesData = [
 
 const ForcesSection = () => (
   <section className="py-8 sm:py-10" style={{ background: "#15181E" }}>
-    <div className="max-w-[1080px] mx-auto px-5 sm:px-6 md:px-10">
+    <div className="max-w-[1080px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
       <div className="text-center mb-8">
         <div className="flex items-center justify-center gap-3 mb-4">
           <div className="w-6 h-px" style={{ background: LIME }} />
@@ -309,7 +309,7 @@ const coreCards = [
 
 const CleanCoreSection = () => (
   <section className="py-8 sm:py-10" style={{ background: "#060604" }}>
-    <div className="max-w-[1100px] mx-auto px-5 sm:px-6 md:px-10">
+    <div className="max-w-[1100px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
       <div className="text-center mb-7">
         <Eyebrow text="Clean Core Strategy" />
         <h2 className="text-[36px] sm:text-[40px] md:text-[48px] font-medium leading-[1.1] text-white" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
@@ -344,7 +344,7 @@ const businessImpactStats = [
 
 const BusinessImpactSection = () => (
   <section className="py-8 sm:py-10" style={{ background: "#10231C" }}>
-    <div className="max-w-[1100px] mx-auto px-5 sm:px-6 md:px-10">
+    <div className="max-w-[1100px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
       <div className="text-center mb-8">
         <h3 className="text-[22px] sm:text-[18px] font-semibold" style={{ color: LIME, fontFamily: "'Space Grotesk', sans-serif" }}>
           Business Impact
@@ -532,7 +532,7 @@ const valueCards = [
 
 const ValueSection = () => (
   <section className="py-8 sm:py-10" style={{ background: "#060604" }}>
-    <div className="max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10">
+    <div className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
       <div className="text-center mb-7">
         <Eyebrow text="Customer Value" />
         <h2 className="text-[36px] sm:text-[40px] md:text-[48px] font-medium leading-tight text-white" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>

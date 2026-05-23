@@ -31,7 +31,7 @@ const HeroSection = () => (
           "linear-gradient(90deg, rgba(6,6,4,0.92) 0%, rgba(6,6,4,0.65) 45%, rgba(6,6,4,0.25) 100%)",
       }}
     />
-    <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-32 sm:pt-36 pb-20">
+    <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-32 sm:pt-36 pb-20">
       <motion.div
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: 1, y: 0 }}
@@ -149,7 +149,7 @@ const HowItWorksSection = () => {
   ];
   return (
     <section className="py-9 sm:py-10" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div
           className="block uppercase mb-4"
           style={{
@@ -327,7 +327,7 @@ const CapabilitiesSection = () => {
 
   return (
     <section className="py-9 sm:py-10" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div
           className="block uppercase mb-4"
           style={{
@@ -542,7 +542,7 @@ const EverythingElseSection = () => {
   ];
   return (
     <section className="py-16 sm:py-20" style={{ background: "#060604" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-center mb-4">
           <span
             className="block uppercase"
@@ -673,7 +673,7 @@ const IndustrySection = () => {
 
   return (
     <section className="py-9 sm:py-10" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-center mb-3">
           <span
             className="block uppercase"
@@ -837,7 +837,7 @@ const TestimonialsSection = () => {
   ];
   return (
     <section className="py-9 sm:py-10 relative overflow-hidden" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div
           className="block uppercase mb-3"
           style={{
@@ -967,7 +967,7 @@ const SeeInventiqCTASection = () => {
   const ease = [0.25, 0.46, 0.45, 0.94] as const;
   return (
   <section className="pt-10 sm:pt-12 md:pt-14 pb-0" style={{ background: "#EAEAEA" }}>
-    <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 text-center">
+    <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
       <motion.h2
         className="text-[32px] sm:text-[44px] md:text-[56px] leading-[1.05] mb-5 sm:mb-6"
         style={{ fontFamily: SERIF, color: "#111", letterSpacing: "-0.01em", fontWeight: 300 }}
@@ -1023,7 +1023,7 @@ const SeeInventiqCTASection = () => {
 
     {/* dark bottom bar — straddles CTA bg and footer */}
     <div
-      className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 relative"
+      className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 relative"
       style={{ marginBottom: "-70px" }}
     >
       <motion.div

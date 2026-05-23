@@ -42,7 +42,7 @@ const HeroSection = () => (
           "linear-gradient(90deg, rgba(6,6,4,0.95) 0%, rgba(6,6,4,0.7) 45%, rgba(6,6,4,0.3) 100%)",
       }}
     />
-    <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-32 sm:pt-36 pb-20">
+    <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-32 sm:pt-36 pb-20">
       <motion.div
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: 1, y: 0 }}
@@ -149,7 +149,7 @@ const AccountabilitySection = () => {
   ];
   return (
     <section className="py-14 sm:py-20" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div
           className="block uppercase mb-6"
           style={{
@@ -246,7 +246,7 @@ const MaterialLossSection = () => {
   ];
   return (
     <section className="py-16 sm:py-24" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1280px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div
           className="block uppercase mb-5"
           style={{
@@ -354,7 +354,7 @@ const StatStripSection = () => {
   ];
   return (
     <section className="py-20 sm:py-24" style={{ background: "#0E0E0E" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10 text-center">
+      <div className="mx-auto max-w-[1280px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <div
           className="block uppercase mb-5 text-center"
           style={{
@@ -469,7 +469,7 @@ const ProductionTruthSection = () => {
   ];
   return (
     <section className="py-14 sm:py-20" style={{ background: "#060604" }}>
-    <div className="mx-auto max-w-[1120px] px-5 sm:px-6 md:px-10">
+    <div className="mx-auto max-w-[1120px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div
           className="text-center block uppercase mb-3"
           style={{
@@ -566,7 +566,7 @@ const ZoneViewSection = () => {
   ];
   return (
     <section className="py-16 sm:py-20" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1120px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1120px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div
           className="block uppercase mb-5"
           style={{
@@ -667,7 +667,7 @@ const OutcomesSection = () => {
   ];
   return (
     <section className="py-10 sm:py-14" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div
           className="block uppercase mb-4"
           style={{
@@ -801,7 +801,7 @@ const ImpactStripSection = () => {
   ];
   return (
     <section className="py-16 sm:py-20" style={{ background: "#0A0A07" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10 text-center">
+      <div className="mx-auto max-w-[1280px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <div
           className="block uppercase mb-5 text-center"
           style={{
@@ -888,7 +888,7 @@ const ConnectorsSection = () => {
   ];
   return (
     <section className="py-14 sm:py-16" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 text-center">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <div
           className="block uppercase mb-4 text-center"
           style={{
@@ -1065,7 +1065,7 @@ const TestimonialsSection = () => {
   ];
   return (
     <section className="py-14 sm:py-16" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div
           className="block uppercase mb-4"
           style={{
@@ -1179,7 +1179,7 @@ const TestimonialsGrid = ({
 /* ===================== CTA — STOP ESTIMATING ===================== */
 const ShopFloorCTASection = () => (
   <section className="pt-10 sm:pt-12 md:pt-14 pb-0" style={{ background: "#EAEAEA" }}>
-    <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 text-center">
+    <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
       <motion.h2
         className="text-[32px] sm:text-[44px] md:text-[56px] leading-[1.05] mb-5 sm:mb-6"
         style={{ fontFamily: SERIF, color: "#111", letterSpacing: "-0.01em", fontWeight: 300 }}
@@ -1232,7 +1232,7 @@ const ShopFloorCTASection = () => (
     </div>
 
     <div
-      className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 relative"
+      className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 relative"
       style={{ marginBottom: "-70px" }}
     >
       <motion.div

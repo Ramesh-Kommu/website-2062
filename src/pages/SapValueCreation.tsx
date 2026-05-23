@@ -20,7 +20,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[560px] sm:min-h-[640px] flex items-start overflow-hidden">
       <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-40 sm:pt-48 pb-16">
+      <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-40 sm:pt-48 pb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-6 sm:mb-8"
@@ -62,7 +62,7 @@ const StructuredPathSection = () => {
   ];
   return (
     <section className="py-12 sm:py-14 md:py-16" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-4 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <h2 className="text-[28px] sm:text-[32px] md:text-[40px] font-medium text-white mb-3 leading-[1.15] max-w-3xl" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
           A Structured Path from <br className="hidden sm:block" />Adoption Gap to Realized Value
         </h2>
@@ -148,7 +148,7 @@ const DeliverSection = () => {
   const MONO = "'JetBrains Mono', monospace";
   return (
     <section className="py-12 sm:py-14 md:py-16" style={{ background: "#090D15" }}>
-      <div className="mx-auto max-w-[1200px] px-4 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <h2 className="text-center text-[28px] sm:text-[32px] md:text-[40px] font-medium text-white mb-8 sm:mb-12 leading-[1.15]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
           What We Deliver
         </h2>
@@ -222,7 +222,7 @@ const EngageSection = () => {
   ];
   return (
     <section className="py-12 sm:py-14 md:py-16" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-4 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <h2 className="text-[28px] sm:text-[32px] md:text-[40px] font-medium text-white mb-3 leading-[1.15]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
           How We Engage
         </h2>
@@ -273,7 +273,7 @@ const WhySection = () => {
   ];
   return (
     <section className="py-12 sm:py-14 md:py-16 relative overflow-hidden" style={{ background: "#202E3C" }}>
-      <div className="relative z-10 mx-auto max-w-[1200px] px-4 sm:px-6 md:px-10">
+      <div className="relative z-10 mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="flex items-center gap-3 mb-4">
           <div className="w-8 h-px" style={{ background: LIME }} />
           <span className="text-[13px] sm:text-[11px] font-medium tracking-[0.2em]" style={{ color: LIME }}>Why OptimAI</span>

@@ -8,7 +8,7 @@ const EwmIndustrySection = () => {
         background: "linear-gradient(180deg, rgba(125, 245, 85, 0.333333) 0%, rgba(73, 143, 50, 0.333333) 100%)",
       }}
     >
-      <div className="relative z-10 mx-auto max-w-[1200px] xl:max-w-[1320px] 2xl:max-w-[1500px] px-5 sm:px-6 md:px-10 text-center">
+      <div className="relative z-10 mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <motion.span
           className="text-primary text-[15px] sm:text-xs font-semibold uppercase tracking-[0.2em] mb-4 block"
           initial={{ opacity: 0, y: 20 }}

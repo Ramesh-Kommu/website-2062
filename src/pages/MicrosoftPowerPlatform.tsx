@@ -36,7 +36,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-end overflow-hidden">
       <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" style={{ transformOrigin: '45% 60%', transform: 'scale(0.95)' }} />
-      <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pb-16 sm:pb-24 pt-28 sm:pt-32">
+      <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pb-16 sm:pb-24 pt-28 sm:pt-32">
         <motion.div
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 mb-6 sm:mb-8"
@@ -119,7 +119,7 @@ const CopilotUnlocksSection = () => {
 
   return (
     <section className="py-12 sm:py-16 md:py-20" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ duration: 0.5 }}>
           <Eyebrow text="Core Copilot Capabilities" />
           <h2
@@ -228,7 +228,7 @@ const ScenariosSection = () => {
 
   return (
     <section className="py-12 sm:py-16 md:py-20" style={{ background: "#202E3C" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ duration: 0.5 }}>
           <Eyebrow text="Real-World Use Cases" center />
           <h2
@@ -286,7 +286,7 @@ const AnthropicSection = () => {
   ];
   return (
     <section className="py-12 sm:py-16 md:py-20" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ duration: 0.5 }}>
           <Eyebrow text="Integration Architecture" center />
           <h2
@@ -389,7 +389,7 @@ const ClaudeTransformsSection = () => {
     >
       <div className="sticky top-0 h-screen flex flex-col">
         {/* Heading */}
-        <div className="mx-auto max-w-[1200px] w-full px-5 sm:px-6 md:px-10 pt-10 sm:pt-14 shrink-0">
+        <div className="mx-auto max-w-[1200px] w-full px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-10 sm:pt-14 shrink-0">
           <Eyebrow text="Automation Scenarios" />
           <h2
             className="text-[22px] sm:text-[28px] md:text-[34px] font-medium text-white mb-4 leading-[1.1]"
@@ -401,7 +401,7 @@ const ClaudeTransformsSection = () => {
 
         {/* Image container */}
         <div className="relative flex-1 min-h-0 overflow-hidden">
-          <div className="absolute inset-0 mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+          <div className="absolute inset-0 mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
             {dashboards.map((db, i) => {
               const offset = i === 0
                 ? 0
@@ -443,7 +443,7 @@ const CaseStudySection = () => {
   ];
   return (
     <section className="py-12 sm:py-16 md:py-20" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 text-center">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ duration: 0.5 }}>
           <Eyebrow text="End-to-End Use Case" center />
           <h2
@@ -522,7 +522,7 @@ const DeploySection = () => {
   ];
   return (
     <section className="py-12 sm:py-16 md:py-20" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ duration: 0.5 }}>
           <Eyebrow text="No-Code Connectors" />
           <h2 className="text-[22px] sm:text-[28px] md:text-[34px] font-medium text-white mb-3 leading-[1.1]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>

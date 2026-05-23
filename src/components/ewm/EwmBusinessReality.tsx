@@ -12,7 +12,7 @@ const painPoints = [
 const EwmBusinessReality = () => {
   return (
     <section className="py-14 sm:py-20" style={{ backgroundColor: "#080B14" }}>
-      <div className="mx-auto max-w-[1200px] xl:max-w-[1320px] 2xl:max-w-[1500px] px-5 sm:px-6 md:px-10 text-center">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <motion.span
           className="text-[#9EF916] text-[13px] sm:text-xs font-semibold uppercase tracking-[0.2em] mb-4 block"
           initial={{ opacity: 0, y: 20 }}

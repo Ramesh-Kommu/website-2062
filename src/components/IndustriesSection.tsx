@@ -21,7 +21,7 @@ const IndustriesSection = () => {
         }}
       />
 
-      <div className="relative z-10 max-w-[1200px] xl:max-w-[1320px] 2xl:max-w-[1500px] mx-auto px-5 sm:px-6 md:px-10">
+      <div className="relative z-10 max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] mx-auto px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="mb-10 sm:mb-14">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-8 h-px bg-primary" />

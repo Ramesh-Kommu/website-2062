@@ -72,7 +72,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[560px] sm:min-h-[640px] flex items-center overflow-hidden" style={{ background: PANEL }}>
       <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-14 sm:pb-20">
+      <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-14 sm:pb-20">
         <Reveal>
           <div className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 mb-6"
             style={{ background: "rgba(0,224,236,0.08)", border: `1px solid ${LIME_SOFT}` }}>
@@ -120,7 +120,7 @@ const UnifiedLayerSection = () => {
   ];
   return (
     <section className="pt-16 sm:pt-24 pb-6 sm:pb-8" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="Core Capabilities" />
           <h2 className="text-[32px] sm:text-[36px] md:text-[44px] font-medium leading-[1.05] mb-12 sm:mb-16 text-white" style={{ fontFamily: GROTESK }}>
@@ -161,7 +161,7 @@ const UnifiedLayerSection = () => {
 const FactoryIntelligenceSection = () => {
   return (
     <section className="pt-6 sm:pt-8 pb-6 sm:pb-8" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <div className="flex justify-center"><Eyebrow text="Live Telemetry" /></div>
           <h2
@@ -253,7 +253,7 @@ const PlantRulesSection = () => {
   ];
   return (
     <section className="pt-6 sm:pt-8 pb-20 sm:pb-28" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="Deployment Architecture" />
           <h2
@@ -530,7 +530,7 @@ const AutonomousActionsSection = () => {
   ];
   return (
     <section className="py-16 sm:py-24" style={{ background: PANEL_2 }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="AI & Agentic Operations" />
           <h2 className="text-[32px] sm:text-[36px] md:text-[44px] font-medium leading-[1.05] mb-3 text-white" style={{ fontFamily: GROTESK }}>
@@ -581,7 +581,7 @@ const SapSyncSection = () => {
   ];
   return (
     <section className="py-16 sm:py-24" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="SAP Integration" />
           <h2 className="text-[32px] sm:text-[36px] md:text-[44px] font-medium leading-[1.05] mb-10 text-white" style={{ fontFamily: GROTESK }}>
@@ -643,7 +643,7 @@ const RealProblemsSection = () => {
   ];
   return (
     <section className="py-16 sm:py-24" style={{ background: PANEL_2 }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <div className="flex justify-center"><Eyebrow text="Operational Use-Cases" /></div>
           <h2 className="text-center text-[32px] sm:text-[36px] md:text-[44px] font-medium leading-[1.1] mb-12 text-white" style={{ fontFamily: GROTESK }}>
@@ -709,7 +709,7 @@ const IndustrySection = () => {
   ];
   return (
     <section className="py-16 sm:py-24" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <div className="flex items-center gap-3 mb-5">
             <div className="w-7 h-px" style={{ background: CYAN }} />
@@ -767,7 +767,7 @@ const ResilienceSection = () => {
   ];
   return (
     <section className="py-16 sm:py-24" style={{ background: "#000000" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="Operational Resilience" />
           <h2 className="text-[32px] sm:text-[36px] md:text-[44px] font-medium leading-[1.05] mb-5 text-white" style={{ fontFamily: GROTESK }}>
@@ -808,7 +808,7 @@ const ProofSection = () => {
   ];
   return (
     <section className="py-16 sm:py-24" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <div className="flex justify-center"><Eyebrow text="Proof in Production" /></div>
           <h2 className="text-center text-[32px] sm:text-[36px] md:text-[44px] font-medium leading-[1.05] mb-12 text-white" style={{ fontFamily: GROTESK }}>

@@ -52,7 +52,7 @@ const Eyebrow = ({ text, center = false, color = LIME }: { text: string; center?
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center overflow-hidden" style={{ background: PANEL }}>
     <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-    <div className="relative z-10 mx-auto w-full max-w-[1200px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-16 sm:pb-24">
+    <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-16 sm:pb-24">
       <Reveal>
         <div
           className="inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 mb-8"
@@ -96,7 +96,7 @@ const NumbersSection = () => {
   ];
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <h2
             className="text-center text-[32px] sm:text-[30px] md:text-[36px] mb-6 sm:mb-8 leading-tight text-white"
@@ -213,7 +213,7 @@ const WhatWeDeliverSection = () => {
     <section
       ref={sectionRef}
       style={{ fontFamily: GROTESK, backgroundColor: "#07070a" }}
-      className="relative overflow-hidden py-12 sm:py-16 px-5 sm:px-6 md:px-10"
+      className="relative overflow-hidden py-12 sm:py-16 px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20"
     >
       {/* ambient glows */}
       <div className="pointer-events-none absolute -top-40 left-1/2 h-[600px] w-[900px] -translate-x-1/2 rounded-full bg-[radial-gradient(ellipse_at_center,rgba(99,102,241,0.18),transparent_60%)] blur-3xl" />
@@ -325,7 +325,7 @@ const SecurityIntelligenceSection = () => {
 
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#111113" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="What We Build For Your Safety" />
           <h2
@@ -430,7 +430,7 @@ const ObservabilitySection = ({
 
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text={eyebrow} />
           <h2
@@ -537,7 +537,7 @@ const DomainSection = ({
   bg?: string;
 }) => (
   <section className="relative py-10 sm:py-14" style={{ background: bg }}>
-    <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+    <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
       <Reveal>
         <Eyebrow text={eyebrow} />
         <h2
@@ -590,7 +590,7 @@ const AlertToActionSection = () => {
   ];
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#F2F2F3" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10 text-center">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
         <Reveal>
           <Eyebrow text="Product — Security Operations" center color={DARK} />
           <h2
@@ -682,7 +682,7 @@ const HowWeEngageSection = () => {
   ];
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="Our Delivery Model" />
           <h2
@@ -757,7 +757,7 @@ const PlatformSection = () => {
   ];
   return (
     <section className="relative py-16 sm:py-20" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1200px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <Eyebrow text="Recognized As An Industry Practice" center />
           <h2
