@@ -164,11 +164,11 @@ const PillarsSection = () => {
             Four Pillars of Real-Time Quality
           </h2>
         </Reveal>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-[920px] mx-auto justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-[1160px] mx-auto justify-items-center">
           {pillars.map((p, i) => (
             <Reveal key={p.tag} delay={i * 0.06}>
               <div
-                className="group px-4 py-4 rounded-xl h-full w-full max-w-[210px] mx-auto transition-all duration-300"
+                className="group px-4 py-4 rounded-xl h-full w-full max-w-[270px] mx-auto transition-all duration-300"
                 style={{
                   background: "#0A0D0A",
                   border: "1.5px solid #1D201D",
