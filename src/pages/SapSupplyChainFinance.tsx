@@ -60,7 +60,7 @@ const HeroSection = () => {
         >
           {stats.map((s) => (
             <div key={s.label}>
-              <div className="text-[34px] sm:text-[32px] md:text-[36px] font-medium leading-none mb-2" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+              <div className="text-[34px] sm:text-[32px] md:text-[36px] font-medium leading-none mb-2 whitespace-nowrap" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                 {s.value}
               </div>
               <div className="text-[14px] sm:text-[11px] uppercase tracking-[0.15em]" style={{ color: "rgba(255,255,255,0.5)" }}>
