@@ -28,7 +28,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[640px] sm:min-h-[720px] flex items-center overflow-hidden">
       <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="relative z-10 mx-auto w-full max-w-[1280px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-16">
+      <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 rounded-full px-4 py-2 mb-6 sm:mb-8"
@@ -95,7 +95,7 @@ const ChallengesSection = () => {
   ];
   return (
     <section className="py-10 sm:py-12 lg:py-14" style={{ background: "#000" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Eyebrow text="Enterprise Risks" color={HERO_LIME} />
         <h2
           className="text-[24px] sm:text-[30px] lg:text-[36px] font-medium text-white leading-[1.1] mb-3"
@@ -166,7 +166,7 @@ const ServicePortfolio = () => {
   ];
   return (
     <section className="py-10 sm:py-12 lg:py-14" style={{ background: "#000" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Eyebrow text="Service Portfolio" color={HERO_LIME} />
         <h2
           className="text-[24px] sm:text-[30px] lg:text-[36px] font-medium text-white leading-[1.1] mb-3"
@@ -254,7 +254,7 @@ const DeliveryJourney = () => {
   ];
   return (
     <section className="py-10 sm:py-12 lg:py-14" style={{ backgroundColor: "#070A07" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <motion.span
           className="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.2em] mb-3 flex items-center justify-center gap-2"
           style={{ color: HERO_LIME }}
@@ -404,7 +404,7 @@ const SpecialistPartner = () => {
   ];
   return (
     <section className="py-10 sm:py-12 lg:py-14" style={{ backgroundColor: "#080B14" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <motion.span
           className="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.2em] mb-3 flex items-center justify-center gap-2"
           style={{ color: HERO_LIME }}

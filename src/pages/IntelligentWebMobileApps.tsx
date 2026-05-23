@@ -73,7 +73,7 @@ const HeroSection = () => (
     style={{ background: PANEL }}
   >
     <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-    <div className="relative z-10 mx-auto w-full max-w-[1280px] px-5 sm:px-6 md:px-10 pt-28 sm:pt-32 pb-16 sm:pb-24">
+    <div className="relative z-10 mx-auto w-full max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 pt-28 sm:pt-32 pb-16 sm:pb-24">
       <Reveal>
         <div
           className="inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 mb-8"
@@ -128,7 +128,7 @@ const ThreePillarsSection = () => {
   ];
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-center mb-8">
           <Reveal>
             <Eyebrow text="Core Offerings" center />
@@ -218,7 +218,7 @@ const TechStackSection = () => {
   ];
   return (
     <section className="relative py-8 sm:py-12" style={{ background: PANEL }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-center">
           <div>
             <Reveal><Eyebrow text="Foundation" /></Reveal>
@@ -305,7 +305,7 @@ const AiAcceleratesSection = () => {
   const [hovered, setHovered] = useState<number | null>(null);
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-center mb-7">
           <div className="inline-flex items-center gap-3 mb-5">
             <div className="w-8 h-px" style={{ background: LIME }} />
@@ -375,7 +375,7 @@ const RealWorldSection = () => {
   const [hovered, setHovered] = useState<number | null>(null);
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <div className="inline-flex items-center gap-3 mb-5">
             <div className="w-8 h-px" style={{ background: LIME }} />
@@ -450,7 +450,7 @@ const RealWorldSection = () => {
 /* ===================== TASK-CENTRIC SAP EXTENSIONS ===================== */
 const SapExtensionsSection = () => (
   <section className="relative pt-10 sm:pt-14 pb-0 overflow-hidden" style={{ background: "#070A07" }}>
-    <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+    <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
       <Reveal>
         <div className="inline-flex items-center gap-3 mb-5">
           <div className="w-8 h-px" style={{ background: LIME }} />
@@ -497,7 +497,7 @@ const AiAugmentedSection = () => {
   ];
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <div className="inline-flex items-center gap-3 mb-5">
             <div className="w-8 h-px" style={{ background: LIME }} />
@@ -551,7 +551,7 @@ const PipelineSection = () => {
   const [hovered, setHovered] = useState<number | null>(null);
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <Reveal>
           <div className="inline-flex items-center gap-3 mb-5">
             <div className="w-8 h-px" style={{ background: LIME }} />
@@ -631,7 +631,7 @@ const StudioSection = () => {
   const [hovered, setHovered] = useState<number | null>(null);
   return (
     <section className="relative py-10 sm:py-14" style={{ background: "#070A07" }}>
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 md:px-10">
+      <div className="mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20">
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-3 mb-5">
             <div className="w-8 h-px" style={{ background: LIME }} />
