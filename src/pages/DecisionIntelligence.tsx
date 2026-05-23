@@ -15,7 +15,8 @@ const DecisionIntelligence = () => (
       .di-white-titles h1,
       .di-white-titles h1 span,
       .di-white-titles h2,
-      .di-white-titles h2 span {
+      .di-white-titles h2 span,
+      .di-white-titles .text-primary {
         color: #ffffff !important;
       }
     `}</style>
