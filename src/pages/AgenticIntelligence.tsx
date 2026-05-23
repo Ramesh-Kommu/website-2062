@@ -663,38 +663,81 @@ const AgenticIntelligence = () => {
         </div>
       </section>
 
-      {/* SECTION 8 — CTA with watermark */}
-      <section className="relative py-14 sm:py-20 overflow-hidden" style={{ backgroundColor: "#13171D" }}>
-        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none leading-[0.85]">
-          <span className="watermark-text-cta block text-center">SAP DATA</span>
-          <span className="watermark-text-cta block text-center">ACTION?</span>
-        </div>
-        <div className="relative mx-auto max-w-[1200px] xl:max-w-[1440px] 2xl:max-w-[1720px] [@media(min-width:1920px)]:max-w-[1840px] px-5 sm:px-8 md:px-14 lg:px-20 xl:px-32 2xl:px-20 text-center">
-          <ScrollReveal animation="fadeUp" duration={0.4}>
-            <h2 className="text-2xl sm:text-4xl md:text-5xl font-medium leading-tight mb-5 text-white max-w-[800px] mx-auto">
-              Ready to See Your SAP Data
+      {/* SECTION 8 — CTA */}
+      <section
+        className="relative overflow-hidden py-12 sm:py-16 lg:py-20"
+        style={{ backgroundColor: "#000000" }}
+      >
+        {/* Half-circle glow */}
+        <div
+          className="pointer-events-none absolute left-1/2 -translate-x-1/2"
+          style={{
+            bottom: "-260px",
+            width: "780px",
+            height: "520px",
+            maxWidth: "120%",
+            background: "#276B5A",
+            borderTopLeftRadius: "50%",
+            borderTopRightRadius: "50%",
+            filter: "blur(160px)",
+            opacity: 0.95,
+          }}
+        />
+
+        <div className="relative z-10 mx-auto flex max-w-[1000px] flex-col items-center px-5 text-center sm:px-6">
+          <ScrollReveal animation="fadeUp" duration={0.6}>
+            <span
+              className="mb-6 inline-block text-[11px] font-semibold uppercase tracking-[0.25em]"
+              style={{ color: "#30E8BA" }}
+            >
+              Ready to Go Agentic?
+            </span>
+          </ScrollReveal>
+
+          <ScrollReveal animation="clipReveal" duration={1} delay={0.1}>
+            <h2 className="mb-6 font-heading text-[32px] font-semibold leading-[1.1] text-white sm:text-[56px] lg:text-[52px]">
+              Ready to See Your
               <br />
-              Take Action?
+              SAP Data{" "}
+              <span
+                style={{
+                  backgroundImage: "linear-gradient(180deg, #DCFFF6 0%, #09E1AB 100%)",
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  color: "transparent",
+                }}
+              >
+                Take Action
+              </span>
+              ?
             </h2>
           </ScrollReveal>
-          <ScrollReveal animation="fadeUp" duration={0.4} delay={0.08}>
-            <p className="text-muted-foreground text-sm sm:text-base max-w-xl mx-auto mb-8">
+
+          <ScrollReveal animation="fadeUp" duration={0.7} delay={0.25}>
+            <p
+              className="mx-auto mb-10 max-w-[640px] text-[14px] leading-relaxed sm:text-[15px]"
+              style={{ color: "rgba(255,255,255,0.6)" }}
+            >
               Let's identify your highest-value agent opportunity in a focused 60-minute session.
               No slides. No pitch deck. Just your business challenges and our blueprints.
             </p>
           </ScrollReveal>
-          <ScrollReveal animation="fadeUp" duration={0.4} delay={0.16}>
-            <div className="flex flex-wrap items-center justify-center gap-4">
+
+          <ScrollReveal animation="fadeUp" duration={0.6} delay={0.4}>
+            <div className="flex items-center justify-center gap-3 sm:gap-4">
               <a
                 href="/contact"
-                className="px-6 py-3 rounded-sm text-sm font-semibold hover:opacity-90 transition text-black inline-block"
-                style={{ backgroundColor: "#21C45D" }}
+                className="rounded-full px-5 py-2.5 text-[12px] font-medium transition-transform hover:scale-105 sm:px-7 sm:py-3 sm:text-[13px] inline-block"
+                style={{ background: "#E8E8E8", color: "#0A0A0A" }}
               >
-                CONTACT US
+                Contact Us
               </a>
-
-              <button className="border border-white/20 text-white px-6 py-3 rounded-sm text-sm font-semibold hover:bg-white/5 transition">
-                EXPLORE MORE
+              <button
+                className="rounded-full px-5 py-2.5 text-[12px] font-medium transition-transform hover:scale-105 sm:px-7 sm:py-3 sm:text-[13px]"
+                style={{ background: "#30E8BA", color: "#0A0A0A" }}
+              >
+                Explore More
               </button>
             </div>
           </ScrollReveal>
