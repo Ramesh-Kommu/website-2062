@@ -9,38 +9,598 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as VisionAnalyticsRouteImport } from './routes/vision-analytics'
+import { Route as TechFactoryRouteImport } from './routes/tech-factory'
+import { Route as SplunkAiApplicationsRouteImport } from './routes/splunk-ai-applications'
+import { Route as ShopfloorDigitalAppsRouteImport } from './routes/shopfloor-digital-apps'
+import { Route as ShopfloorRouteImport } from './routes/shopfloor'
+import { Route as Sfx9MesRouteImport } from './routes/sfx9-mes'
+import { Route as SapValueCreationRouteImport } from './routes/sap-value-creation'
+import { Route as SapSupplyChainFinanceRouteImport } from './routes/sap-supply-chain-finance'
+import { Route as SapRiseImplementationRouteImport } from './routes/sap-rise-implementation'
+import { Route as SapIbpRouteImport } from './routes/sap-ibp'
+import { Route as SapEwmRouteImport } from './routes/sap-ewm'
+import { Route as SapApplicationSupportRouteImport } from './routes/sap-application-support'
+import { Route as SapAnalyticsPowerBiRouteImport } from './routes/sap-analytics-power-bi'
+import { Route as PredictiveAnalyticsRouteImport } from './routes/predictive-analytics'
+import { Route as MicrosoftPowerPlatformRouteImport } from './routes/microsoft-power-platform'
+import { Route as InventiqRouteImport } from './routes/inventiq'
+import { Route as IntelligentWebMobileAppsRouteImport } from './routes/intelligent-web-mobile-apps'
+import { Route as InsightsEventsRouteImport } from './routes/insights-events'
+import { Route as FactoryFiniteSchedulingRouteImport } from './routes/factory-finite-scheduling'
+import { Route as EnterpriseDataEngineeringRouteImport } from './routes/enterprise-data-engineering'
+import { Route as DecisionIntelligenceRouteImport } from './routes/decision-intelligence'
+import { Route as CultureRouteImport } from './routes/culture'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as ConditionMonitoringRouteImport } from './routes/condition-monitoring'
+import { Route as CareersRouteImport } from './routes/careers'
+import { Route as AgenticIntelligenceRouteImport } from './routes/agentic-intelligence'
 import { Route as IndexRouteImport } from './routes/index'
 
+const VisionAnalyticsRoute = VisionAnalyticsRouteImport.update({
+  id: '/vision-analytics',
+  path: '/vision-analytics',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/vision-analytics.lazy').then((d) => d.Route),
+)
+const TechFactoryRoute = TechFactoryRouteImport.update({
+  id: '/tech-factory',
+  path: '/tech-factory',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/tech-factory.lazy').then((d) => d.Route))
+const SplunkAiApplicationsRoute = SplunkAiApplicationsRouteImport.update({
+  id: '/splunk-ai-applications',
+  path: '/splunk-ai-applications',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/splunk-ai-applications.lazy').then((d) => d.Route),
+)
+const ShopfloorDigitalAppsRoute = ShopfloorDigitalAppsRouteImport.update({
+  id: '/shopfloor-digital-apps',
+  path: '/shopfloor-digital-apps',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/shopfloor-digital-apps.lazy').then((d) => d.Route),
+)
+const ShopfloorRoute = ShopfloorRouteImport.update({
+  id: '/shopfloor',
+  path: '/shopfloor',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/shopfloor.lazy').then((d) => d.Route))
+const Sfx9MesRoute = Sfx9MesRouteImport.update({
+  id: '/sfx9-mes',
+  path: '/sfx9-mes',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/sfx9-mes.lazy').then((d) => d.Route))
+const SapValueCreationRoute = SapValueCreationRouteImport.update({
+  id: '/sap-value-creation',
+  path: '/sap-value-creation',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/sap-value-creation.lazy').then((d) => d.Route),
+)
+const SapSupplyChainFinanceRoute = SapSupplyChainFinanceRouteImport.update({
+  id: '/sap-supply-chain-finance',
+  path: '/sap-supply-chain-finance',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/sap-supply-chain-finance.lazy').then((d) => d.Route),
+)
+const SapRiseImplementationRoute = SapRiseImplementationRouteImport.update({
+  id: '/sap-rise-implementation',
+  path: '/sap-rise-implementation',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/sap-rise-implementation.lazy').then((d) => d.Route),
+)
+const SapIbpRoute = SapIbpRouteImport.update({
+  id: '/sap-ibp',
+  path: '/sap-ibp',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/sap-ibp.lazy').then((d) => d.Route))
+const SapEwmRoute = SapEwmRouteImport.update({
+  id: '/sap-ewm',
+  path: '/sap-ewm',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/sap-ewm.lazy').then((d) => d.Route))
+const SapApplicationSupportRoute = SapApplicationSupportRouteImport.update({
+  id: '/sap-application-support',
+  path: '/sap-application-support',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/sap-application-support.lazy').then((d) => d.Route),
+)
+const SapAnalyticsPowerBiRoute = SapAnalyticsPowerBiRouteImport.update({
+  id: '/sap-analytics-power-bi',
+  path: '/sap-analytics-power-bi',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/sap-analytics-power-bi.lazy').then((d) => d.Route),
+)
+const PredictiveAnalyticsRoute = PredictiveAnalyticsRouteImport.update({
+  id: '/predictive-analytics',
+  path: '/predictive-analytics',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/predictive-analytics.lazy').then((d) => d.Route),
+)
+const MicrosoftPowerPlatformRoute = MicrosoftPowerPlatformRouteImport.update({
+  id: '/microsoft-power-platform',
+  path: '/microsoft-power-platform',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/microsoft-power-platform.lazy').then((d) => d.Route),
+)
+const InventiqRoute = InventiqRouteImport.update({
+  id: '/inventiq',
+  path: '/inventiq',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/inventiq.lazy').then((d) => d.Route))
+const IntelligentWebMobileAppsRoute =
+  IntelligentWebMobileAppsRouteImport.update({
+    id: '/intelligent-web-mobile-apps',
+    path: '/intelligent-web-mobile-apps',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/intelligent-web-mobile-apps.lazy').then((d) => d.Route),
+  )
+const InsightsEventsRoute = InsightsEventsRouteImport.update({
+  id: '/insights-events',
+  path: '/insights-events',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/insights-events.lazy').then((d) => d.Route),
+)
+const FactoryFiniteSchedulingRoute = FactoryFiniteSchedulingRouteImport.update({
+  id: '/factory-finite-scheduling',
+  path: '/factory-finite-scheduling',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/factory-finite-scheduling.lazy').then((d) => d.Route),
+)
+const EnterpriseDataEngineeringRoute =
+  EnterpriseDataEngineeringRouteImport.update({
+    id: '/enterprise-data-engineering',
+    path: '/enterprise-data-engineering',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/enterprise-data-engineering.lazy').then((d) => d.Route),
+  )
+const DecisionIntelligenceRoute = DecisionIntelligenceRouteImport.update({
+  id: '/decision-intelligence',
+  path: '/decision-intelligence',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/decision-intelligence.lazy').then((d) => d.Route),
+)
+const CultureRoute = CultureRouteImport.update({
+  id: '/culture',
+  path: '/culture',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/culture.lazy').then((d) => d.Route))
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/contact.lazy').then((d) => d.Route))
+const ConditionMonitoringRoute = ConditionMonitoringRouteImport.update({
+  id: '/condition-monitoring',
+  path: '/condition-monitoring',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/condition-monitoring.lazy').then((d) => d.Route),
+)
+const CareersRoute = CareersRouteImport.update({
+  id: '/careers',
+  path: '/careers',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/careers.lazy').then((d) => d.Route))
+const AgenticIntelligenceRoute = AgenticIntelligenceRouteImport.update({
+  id: '/agentic-intelligence',
+  path: '/agentic-intelligence',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/agentic-intelligence.lazy').then((d) => d.Route),
+)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any).lazy(() => import('./routes/index.lazy').then((d) => d.Route))
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/agentic-intelligence': typeof AgenticIntelligenceRoute
+  '/careers': typeof CareersRoute
+  '/condition-monitoring': typeof ConditionMonitoringRoute
+  '/contact': typeof ContactRoute
+  '/culture': typeof CultureRoute
+  '/decision-intelligence': typeof DecisionIntelligenceRoute
+  '/enterprise-data-engineering': typeof EnterpriseDataEngineeringRoute
+  '/factory-finite-scheduling': typeof FactoryFiniteSchedulingRoute
+  '/insights-events': typeof InsightsEventsRoute
+  '/intelligent-web-mobile-apps': typeof IntelligentWebMobileAppsRoute
+  '/inventiq': typeof InventiqRoute
+  '/microsoft-power-platform': typeof MicrosoftPowerPlatformRoute
+  '/predictive-analytics': typeof PredictiveAnalyticsRoute
+  '/sap-analytics-power-bi': typeof SapAnalyticsPowerBiRoute
+  '/sap-application-support': typeof SapApplicationSupportRoute
+  '/sap-ewm': typeof SapEwmRoute
+  '/sap-ibp': typeof SapIbpRoute
+  '/sap-rise-implementation': typeof SapRiseImplementationRoute
+  '/sap-supply-chain-finance': typeof SapSupplyChainFinanceRoute
+  '/sap-value-creation': typeof SapValueCreationRoute
+  '/sfx9-mes': typeof Sfx9MesRoute
+  '/shopfloor': typeof ShopfloorRoute
+  '/shopfloor-digital-apps': typeof ShopfloorDigitalAppsRoute
+  '/splunk-ai-applications': typeof SplunkAiApplicationsRoute
+  '/tech-factory': typeof TechFactoryRoute
+  '/vision-analytics': typeof VisionAnalyticsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/agentic-intelligence': typeof AgenticIntelligenceRoute
+  '/careers': typeof CareersRoute
+  '/condition-monitoring': typeof ConditionMonitoringRoute
+  '/contact': typeof ContactRoute
+  '/culture': typeof CultureRoute
+  '/decision-intelligence': typeof DecisionIntelligenceRoute
+  '/enterprise-data-engineering': typeof EnterpriseDataEngineeringRoute
+  '/factory-finite-scheduling': typeof FactoryFiniteSchedulingRoute
+  '/insights-events': typeof InsightsEventsRoute
+  '/intelligent-web-mobile-apps': typeof IntelligentWebMobileAppsRoute
+  '/inventiq': typeof InventiqRoute
+  '/microsoft-power-platform': typeof MicrosoftPowerPlatformRoute
+  '/predictive-analytics': typeof PredictiveAnalyticsRoute
+  '/sap-analytics-power-bi': typeof SapAnalyticsPowerBiRoute
+  '/sap-application-support': typeof SapApplicationSupportRoute
+  '/sap-ewm': typeof SapEwmRoute
+  '/sap-ibp': typeof SapIbpRoute
+  '/sap-rise-implementation': typeof SapRiseImplementationRoute
+  '/sap-supply-chain-finance': typeof SapSupplyChainFinanceRoute
+  '/sap-value-creation': typeof SapValueCreationRoute
+  '/sfx9-mes': typeof Sfx9MesRoute
+  '/shopfloor': typeof ShopfloorRoute
+  '/shopfloor-digital-apps': typeof ShopfloorDigitalAppsRoute
+  '/splunk-ai-applications': typeof SplunkAiApplicationsRoute
+  '/tech-factory': typeof TechFactoryRoute
+  '/vision-analytics': typeof VisionAnalyticsRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/agentic-intelligence': typeof AgenticIntelligenceRoute
+  '/careers': typeof CareersRoute
+  '/condition-monitoring': typeof ConditionMonitoringRoute
+  '/contact': typeof ContactRoute
+  '/culture': typeof CultureRoute
+  '/decision-intelligence': typeof DecisionIntelligenceRoute
+  '/enterprise-data-engineering': typeof EnterpriseDataEngineeringRoute
+  '/factory-finite-scheduling': typeof FactoryFiniteSchedulingRoute
+  '/insights-events': typeof InsightsEventsRoute
+  '/intelligent-web-mobile-apps': typeof IntelligentWebMobileAppsRoute
+  '/inventiq': typeof InventiqRoute
+  '/microsoft-power-platform': typeof MicrosoftPowerPlatformRoute
+  '/predictive-analytics': typeof PredictiveAnalyticsRoute
+  '/sap-analytics-power-bi': typeof SapAnalyticsPowerBiRoute
+  '/sap-application-support': typeof SapApplicationSupportRoute
+  '/sap-ewm': typeof SapEwmRoute
+  '/sap-ibp': typeof SapIbpRoute
+  '/sap-rise-implementation': typeof SapRiseImplementationRoute
+  '/sap-supply-chain-finance': typeof SapSupplyChainFinanceRoute
+  '/sap-value-creation': typeof SapValueCreationRoute
+  '/sfx9-mes': typeof Sfx9MesRoute
+  '/shopfloor': typeof ShopfloorRoute
+  '/shopfloor-digital-apps': typeof ShopfloorDigitalAppsRoute
+  '/splunk-ai-applications': typeof SplunkAiApplicationsRoute
+  '/tech-factory': typeof TechFactoryRoute
+  '/vision-analytics': typeof VisionAnalyticsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/agentic-intelligence'
+    | '/careers'
+    | '/condition-monitoring'
+    | '/contact'
+    | '/culture'
+    | '/decision-intelligence'
+    | '/enterprise-data-engineering'
+    | '/factory-finite-scheduling'
+    | '/insights-events'
+    | '/intelligent-web-mobile-apps'
+    | '/inventiq'
+    | '/microsoft-power-platform'
+    | '/predictive-analytics'
+    | '/sap-analytics-power-bi'
+    | '/sap-application-support'
+    | '/sap-ewm'
+    | '/sap-ibp'
+    | '/sap-rise-implementation'
+    | '/sap-supply-chain-finance'
+    | '/sap-value-creation'
+    | '/sfx9-mes'
+    | '/shopfloor'
+    | '/shopfloor-digital-apps'
+    | '/splunk-ai-applications'
+    | '/tech-factory'
+    | '/vision-analytics'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/agentic-intelligence'
+    | '/careers'
+    | '/condition-monitoring'
+    | '/contact'
+    | '/culture'
+    | '/decision-intelligence'
+    | '/enterprise-data-engineering'
+    | '/factory-finite-scheduling'
+    | '/insights-events'
+    | '/intelligent-web-mobile-apps'
+    | '/inventiq'
+    | '/microsoft-power-platform'
+    | '/predictive-analytics'
+    | '/sap-analytics-power-bi'
+    | '/sap-application-support'
+    | '/sap-ewm'
+    | '/sap-ibp'
+    | '/sap-rise-implementation'
+    | '/sap-supply-chain-finance'
+    | '/sap-value-creation'
+    | '/sfx9-mes'
+    | '/shopfloor'
+    | '/shopfloor-digital-apps'
+    | '/splunk-ai-applications'
+    | '/tech-factory'
+    | '/vision-analytics'
+  id:
+    | '__root__'
+    | '/'
+    | '/agentic-intelligence'
+    | '/careers'
+    | '/condition-monitoring'
+    | '/contact'
+    | '/culture'
+    | '/decision-intelligence'
+    | '/enterprise-data-engineering'
+    | '/factory-finite-scheduling'
+    | '/insights-events'
+    | '/intelligent-web-mobile-apps'
+    | '/inventiq'
+    | '/microsoft-power-platform'
+    | '/predictive-analytics'
+    | '/sap-analytics-power-bi'
+    | '/sap-application-support'
+    | '/sap-ewm'
+    | '/sap-ibp'
+    | '/sap-rise-implementation'
+    | '/sap-supply-chain-finance'
+    | '/sap-value-creation'
+    | '/sfx9-mes'
+    | '/shopfloor'
+    | '/shopfloor-digital-apps'
+    | '/splunk-ai-applications'
+    | '/tech-factory'
+    | '/vision-analytics'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AgenticIntelligenceRoute: typeof AgenticIntelligenceRoute
+  CareersRoute: typeof CareersRoute
+  ConditionMonitoringRoute: typeof ConditionMonitoringRoute
+  ContactRoute: typeof ContactRoute
+  CultureRoute: typeof CultureRoute
+  DecisionIntelligenceRoute: typeof DecisionIntelligenceRoute
+  EnterpriseDataEngineeringRoute: typeof EnterpriseDataEngineeringRoute
+  FactoryFiniteSchedulingRoute: typeof FactoryFiniteSchedulingRoute
+  InsightsEventsRoute: typeof InsightsEventsRoute
+  IntelligentWebMobileAppsRoute: typeof IntelligentWebMobileAppsRoute
+  InventiqRoute: typeof InventiqRoute
+  MicrosoftPowerPlatformRoute: typeof MicrosoftPowerPlatformRoute
+  PredictiveAnalyticsRoute: typeof PredictiveAnalyticsRoute
+  SapAnalyticsPowerBiRoute: typeof SapAnalyticsPowerBiRoute
+  SapApplicationSupportRoute: typeof SapApplicationSupportRoute
+  SapEwmRoute: typeof SapEwmRoute
+  SapIbpRoute: typeof SapIbpRoute
+  SapRiseImplementationRoute: typeof SapRiseImplementationRoute
+  SapSupplyChainFinanceRoute: typeof SapSupplyChainFinanceRoute
+  SapValueCreationRoute: typeof SapValueCreationRoute
+  Sfx9MesRoute: typeof Sfx9MesRoute
+  ShopfloorRoute: typeof ShopfloorRoute
+  ShopfloorDigitalAppsRoute: typeof ShopfloorDigitalAppsRoute
+  SplunkAiApplicationsRoute: typeof SplunkAiApplicationsRoute
+  TechFactoryRoute: typeof TechFactoryRoute
+  VisionAnalyticsRoute: typeof VisionAnalyticsRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/vision-analytics': {
+      id: '/vision-analytics'
+      path: '/vision-analytics'
+      fullPath: '/vision-analytics'
+      preLoaderRoute: typeof VisionAnalyticsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tech-factory': {
+      id: '/tech-factory'
+      path: '/tech-factory'
+      fullPath: '/tech-factory'
+      preLoaderRoute: typeof TechFactoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/splunk-ai-applications': {
+      id: '/splunk-ai-applications'
+      path: '/splunk-ai-applications'
+      fullPath: '/splunk-ai-applications'
+      preLoaderRoute: typeof SplunkAiApplicationsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/shopfloor-digital-apps': {
+      id: '/shopfloor-digital-apps'
+      path: '/shopfloor-digital-apps'
+      fullPath: '/shopfloor-digital-apps'
+      preLoaderRoute: typeof ShopfloorDigitalAppsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/shopfloor': {
+      id: '/shopfloor'
+      path: '/shopfloor'
+      fullPath: '/shopfloor'
+      preLoaderRoute: typeof ShopfloorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sfx9-mes': {
+      id: '/sfx9-mes'
+      path: '/sfx9-mes'
+      fullPath: '/sfx9-mes'
+      preLoaderRoute: typeof Sfx9MesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sap-value-creation': {
+      id: '/sap-value-creation'
+      path: '/sap-value-creation'
+      fullPath: '/sap-value-creation'
+      preLoaderRoute: typeof SapValueCreationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sap-supply-chain-finance': {
+      id: '/sap-supply-chain-finance'
+      path: '/sap-supply-chain-finance'
+      fullPath: '/sap-supply-chain-finance'
+      preLoaderRoute: typeof SapSupplyChainFinanceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sap-rise-implementation': {
+      id: '/sap-rise-implementation'
+      path: '/sap-rise-implementation'
+      fullPath: '/sap-rise-implementation'
+      preLoaderRoute: typeof SapRiseImplementationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sap-ibp': {
+      id: '/sap-ibp'
+      path: '/sap-ibp'
+      fullPath: '/sap-ibp'
+      preLoaderRoute: typeof SapIbpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sap-ewm': {
+      id: '/sap-ewm'
+      path: '/sap-ewm'
+      fullPath: '/sap-ewm'
+      preLoaderRoute: typeof SapEwmRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sap-application-support': {
+      id: '/sap-application-support'
+      path: '/sap-application-support'
+      fullPath: '/sap-application-support'
+      preLoaderRoute: typeof SapApplicationSupportRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sap-analytics-power-bi': {
+      id: '/sap-analytics-power-bi'
+      path: '/sap-analytics-power-bi'
+      fullPath: '/sap-analytics-power-bi'
+      preLoaderRoute: typeof SapAnalyticsPowerBiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/predictive-analytics': {
+      id: '/predictive-analytics'
+      path: '/predictive-analytics'
+      fullPath: '/predictive-analytics'
+      preLoaderRoute: typeof PredictiveAnalyticsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/microsoft-power-platform': {
+      id: '/microsoft-power-platform'
+      path: '/microsoft-power-platform'
+      fullPath: '/microsoft-power-platform'
+      preLoaderRoute: typeof MicrosoftPowerPlatformRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/inventiq': {
+      id: '/inventiq'
+      path: '/inventiq'
+      fullPath: '/inventiq'
+      preLoaderRoute: typeof InventiqRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/intelligent-web-mobile-apps': {
+      id: '/intelligent-web-mobile-apps'
+      path: '/intelligent-web-mobile-apps'
+      fullPath: '/intelligent-web-mobile-apps'
+      preLoaderRoute: typeof IntelligentWebMobileAppsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/insights-events': {
+      id: '/insights-events'
+      path: '/insights-events'
+      fullPath: '/insights-events'
+      preLoaderRoute: typeof InsightsEventsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/factory-finite-scheduling': {
+      id: '/factory-finite-scheduling'
+      path: '/factory-finite-scheduling'
+      fullPath: '/factory-finite-scheduling'
+      preLoaderRoute: typeof FactoryFiniteSchedulingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/enterprise-data-engineering': {
+      id: '/enterprise-data-engineering'
+      path: '/enterprise-data-engineering'
+      fullPath: '/enterprise-data-engineering'
+      preLoaderRoute: typeof EnterpriseDataEngineeringRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/decision-intelligence': {
+      id: '/decision-intelligence'
+      path: '/decision-intelligence'
+      fullPath: '/decision-intelligence'
+      preLoaderRoute: typeof DecisionIntelligenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/culture': {
+      id: '/culture'
+      path: '/culture'
+      fullPath: '/culture'
+      preLoaderRoute: typeof CultureRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/condition-monitoring': {
+      id: '/condition-monitoring'
+      path: '/condition-monitoring'
+      fullPath: '/condition-monitoring'
+      preLoaderRoute: typeof ConditionMonitoringRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/careers': {
+      id: '/careers'
+      path: '/careers'
+      fullPath: '/careers'
+      preLoaderRoute: typeof CareersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agentic-intelligence': {
+      id: '/agentic-intelligence'
+      path: '/agentic-intelligence'
+      fullPath: '/agentic-intelligence'
+      preLoaderRoute: typeof AgenticIntelligenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -53,17 +613,33 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AgenticIntelligenceRoute: AgenticIntelligenceRoute,
+  CareersRoute: CareersRoute,
+  ConditionMonitoringRoute: ConditionMonitoringRoute,
+  ContactRoute: ContactRoute,
+  CultureRoute: CultureRoute,
+  DecisionIntelligenceRoute: DecisionIntelligenceRoute,
+  EnterpriseDataEngineeringRoute: EnterpriseDataEngineeringRoute,
+  FactoryFiniteSchedulingRoute: FactoryFiniteSchedulingRoute,
+  InsightsEventsRoute: InsightsEventsRoute,
+  IntelligentWebMobileAppsRoute: IntelligentWebMobileAppsRoute,
+  InventiqRoute: InventiqRoute,
+  MicrosoftPowerPlatformRoute: MicrosoftPowerPlatformRoute,
+  PredictiveAnalyticsRoute: PredictiveAnalyticsRoute,
+  SapAnalyticsPowerBiRoute: SapAnalyticsPowerBiRoute,
+  SapApplicationSupportRoute: SapApplicationSupportRoute,
+  SapEwmRoute: SapEwmRoute,
+  SapIbpRoute: SapIbpRoute,
+  SapRiseImplementationRoute: SapRiseImplementationRoute,
+  SapSupplyChainFinanceRoute: SapSupplyChainFinanceRoute,
+  SapValueCreationRoute: SapValueCreationRoute,
+  Sfx9MesRoute: Sfx9MesRoute,
+  ShopfloorRoute: ShopfloorRoute,
+  ShopfloorDigitalAppsRoute: ShopfloorDigitalAppsRoute,
+  SplunkAiApplicationsRoute: SplunkAiApplicationsRoute,
+  TechFactoryRoute: TechFactoryRoute,
+  VisionAnalyticsRoute: VisionAnalyticsRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
