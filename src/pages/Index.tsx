@@ -11,8 +11,10 @@ import InnerCoreSection from "@/components/home/InnerCoreSection";
 import PartnersSection from "@/components/home/PartnersSection";
 import HomeCTASection from "@/components/home/HomeCTASection";
 import FooterSection from "@/components/home/FooterSection";
+import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
 
 const Index = () => {
+  useSmoothScroll();
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
